@@ -38,7 +38,7 @@
             this.Okay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Okay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Okay.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Okay.Location = new System.Drawing.Point(274, 83);
+            this.Okay.Location = new System.Drawing.Point(354, 87);
             this.Okay.Name = "Okay";
             this.Okay.Size = new System.Drawing.Size(75, 23);
             this.Okay.TabIndex = 0;
@@ -52,17 +52,19 @@
             this.Message.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Message.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Message.Location = new System.Drawing.Point(12, 27);
+            this.Message.Location = new System.Drawing.Point(12, 31);
             this.Message.Name = "Message";
             this.Message.ReadOnly = true;
-            this.Message.Size = new System.Drawing.Size(599, 16);
+            this.Message.Size = new System.Drawing.Size(759, 16);
             this.Message.TabIndex = 1;
+            this.Message.Text = "Error";
             this.Message.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Popup
             // 
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(623, 131);
+            this.ClientSize = new System.Drawing.Size(783, 131);
             this.Controls.Add(this.Message);
             this.Controls.Add(this.Okay);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

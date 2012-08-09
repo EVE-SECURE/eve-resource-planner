@@ -178,6 +178,11 @@ namespace EVETool {
                 Popup error = new Popup("Database Error", "There has been a problem with the Database. Are you sure it is in the same location as the EXE?");
                 error.Show();
             }
+            catch (System.FormatException)
+            {
+                Popup error = new Popup("Format Exception", "There has been a problem Calculating your request. Are you sure you have filled in the Tier, Resource, and Quantity?");
+                error.Show();
+            }
         }
     }
 }
