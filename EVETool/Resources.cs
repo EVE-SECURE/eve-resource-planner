@@ -62,13 +62,10 @@ namespace EVETool {
                         DesiredProduct.Items.Add(P4DataTable.Rows[i]["P4"].ToString());
                 }
             }
-            catch (TypedDataSetGeneratorException)
+            catch (System.Exception)
             {
                 Popup error = new Popup("Database Error", "There has been a problem with the Database. Are you sure it is in the same location as the EXE?");
                 error.Show();
-            }
-            catch (DataException)
-            {
             }
         }
         private void DesiredProduct_SelectedIndexChanged(object sender, EventArgs e)
@@ -173,14 +170,14 @@ namespace EVETool {
                     }
                 }
             }
-            catch (TypedDataSetGeneratorException)
-            {
-                Popup error = new Popup("Database Error", "There has been a problem with the Database. Are you sure it is in the same location as the EXE?");
-                error.Show();
-            }
             catch (System.FormatException)
             {
                 Popup error = new Popup("Format Exception", "There has been a problem Calculating your request. Are you sure you have filled in the Tier, Resource, and Quantity?");
+                error.Show();
+            }
+            catch (System.Exception)
+            {
+                Popup error = new Popup("Error", "I'm Sorry. An error has occurred.");
                 error.Show();
             }
         }

@@ -31,9 +31,11 @@ namespace EVETool
                 }
             }
             if (Index == 1) {
-
-                ResultAmount.Text = Convert.ToString(Math.Truncate(Amount / 0.38)) + "u";
-                RMAmount.Text = Convert.ToString((Math.Truncate((Amount / 0.38)) / 20) * 3000) + "u";
+                double P1, RM;
+                P1 = Math.Truncate(Amount / 0.38);
+                RM = (P1 / 20) * 3000;
+                ResultAmount.Text = Convert.ToString(P1) + "u";
+                RMAmount.Text = Convert.ToString(RM) + "u";
             }
         }
     }
