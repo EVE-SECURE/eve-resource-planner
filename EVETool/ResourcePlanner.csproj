@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EveToolWin.cs">
+    <Compile Include="ResourceWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EveToolWin.Designer.cs">
-      <DependentUpon>EveToolWin.cs</DependentUpon>
+    <Compile Include="ResourceWindow.Designer.cs">
+      <DependentUpon>ResourceWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="P1.cs">
       <SubType>UserControl</SubType>
@@ -103,8 +103,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SIDataSet.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="EveToolWin.resx">
-      <DependentUpon>EveToolWin.cs</DependentUpon>
+    <EmbeddedResource Include="Resources.en.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceWindow.resx">
+      <DependentUpon>ResourceWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="P1.resx">
       <DependentUpon>P1.cs</DependentUpon>
