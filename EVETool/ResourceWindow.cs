@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EVETool
 {
-    public partial class EveToolWin : Form
+    public partial class ResourceWindow : Form
     {
-        public EveToolWin()
+        public ResourceWindow()
         {
             InitializeComponent();
         }

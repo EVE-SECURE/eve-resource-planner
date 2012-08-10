@@ -91,7 +91,7 @@
             // ResultsPanel
             // 
             this.ResultsPanel.AutoScroll = true;
-            this.ResultsPanel.Location = new System.Drawing.Point(1, 106);
+            this.ResultsPanel.Location = new System.Drawing.Point(2, 106);
             this.ResultsPanel.Name = "ResultsPanel";
             this.ResultsPanel.Size = new System.Drawing.Size(850, 233);
             this.ResultsPanel.TabIndex = 7;
@@ -99,7 +99,7 @@
             // Spacer
             // 
             this.Spacer.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Spacer.Location = new System.Drawing.Point(0, 101);
+            this.Spacer.Location = new System.Drawing.Point(2, 101);
             this.Spacer.Name = "Spacer";
             this.Spacer.Size = new System.Drawing.Size(850, 6);
             this.Spacer.TabIndex = 8;
@@ -190,7 +190,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Controls.Add(this.QuantityUnits);
             this.Controls.Add(this.MassLabel);

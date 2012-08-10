@@ -16,7 +16,7 @@ namespace EVETool
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EveToolWin());
+            Application.Run(new ResourceWindow());
         }
     }
 }

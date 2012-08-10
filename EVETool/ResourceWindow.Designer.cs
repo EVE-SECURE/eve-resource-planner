@@ -1,6 +1,6 @@
 ﻿namespace EVETool
 {
-    partial class EveToolWin
+    partial class ResourceWindow
     {
         /// <summary>
         /// Required designer variable.
