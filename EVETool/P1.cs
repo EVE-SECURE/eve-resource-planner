@@ -34,8 +34,8 @@ namespace EVETool
                 double P1, RM;
                 P1 = Math.Truncate(Amount / 0.38);
                 RM = (P1 / 20) * 3000;
-                ResultAmount.Text = Convert.ToString(P1) + "u";
-                RMAmount.Text = Convert.ToString(RM) + "u";
+                ResultAmount.Text = String.Format("{0:n}", P1) + "u";
+                RMAmount.Text = String.Format("{0:n}", RM) + "u";
             }
         }
     }

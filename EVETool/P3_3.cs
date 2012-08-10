@@ -37,15 +37,15 @@ namespace EVETool
                 if (Amount % 3 == 0)
                 {
                     double P2, P1, RM;
-                    FinalAmount.Text = Convert.ToString(Amount) + "u";
+                    FinalAmount.Text = String.Format("{0:n}", Amount) + "u";
                     P2 = (Amount / 3) * 10;
                     P1 = (P2 / 5) * 40;
                     RM = (P1 / 20) * 3000;
-                    P2Amount.Text = Convert.ToString(P2) + "u";
-                    P1Amount.Text = Convert.ToString(P1) + "u";
+                    P2Amount.Text = String.Format("{0:n}", P2) + "u";
+                    P1Amount.Text = String.Format("{0:n}", P1) + "u";
                     P1_1Amount.Text = P1Amount.Text;
                     P1_2Amount.Text = P1Amount.Text;
-                    RMAmount.Text = Convert.ToString(RM) + "u";
+                    RMAmount.Text = String.Format("{0:n}", RM) + "u";
                     RM_1Amount.Text = RMAmount.Text;
                     RM_2Amount.Text = RMAmount.Text;
                 }
@@ -62,12 +62,12 @@ namespace EVETool
                 P2 = (P3 / 3) * 10;
                 P1 = (P2 / 5) * 40;
                 RM = (P1 / 20) * 3000;
-                FinalAmount.Text = Convert.ToString(P3) + "u";
-                P2Amount.Text = Convert.ToString(Math.Round(P2,2)) + "u";
-                P1Amount.Text = Convert.ToString(Math.Round(P1,2)) + "u";
+                FinalAmount.Text = String.Format("{0:n}", P3) + "u";
+                P2Amount.Text = String.Format("{0:n}", Math.Round(P2, 2)) + "u";
+                P1Amount.Text = String.Format("{0:n}", Math.Round(P1, 2)) + "u";
                 P1_1Amount.Text = P1Amount.Text;
                 P1_2Amount.Text = P1Amount.Text;
-                RMAmount.Text = Convert.ToString(RM) + "u";
+                RMAmount.Text = String.Format("{0:n}", RM) + "u";
                 RM_1Amount.Text = RMAmount.Text;
                 RM_2Amount.Text = RMAmount.Text;
             }

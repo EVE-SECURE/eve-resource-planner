@@ -118,399 +118,399 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;Value.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="QuantityUnits.Text" xml:space="preserve">
-    <value>u</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MassLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;DesiredProduct.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ResultsPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>850, 233</value>
-  </data>
-  <data name="MassLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="CalculateUsingLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 15</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsingLabel.Name" xml:space="preserve">
-    <value>CalculateUsingLabel</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Resources</value>
-  </data>
-  <data name="&gt;&gt;ResourceTier.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="DesiredLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 15</value>
-  </data>
-  <data name="CalculateUsingLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsing.Name" xml:space="preserve">
-    <value>CalculateUsing</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BuildResult.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="QuantityUnits.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 15</value>
-  </data>
-  <data name="CalculateUsing.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Value.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;Value.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Value.WordWrap" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;ResultsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CalculateUsingLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 43</value>
-  </data>
-  <data name="&gt;&gt;ResultsPanel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;TierLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;Value.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BuildResult.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
-  </data>
-  <data name="CalculateUsingLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="CalculateUsingLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;DesiredLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="CalculateUsing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 40</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="DesiredLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="BuildResult.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;MassLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;QuantityUnits.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;DesiredProduct.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Spacer.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="CalculateUsingLabel.Text" xml:space="preserve">
-    <value>Calculate Using</value>
-  </data>
-  <data name="&gt;&gt;QuantityUnits.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MassLabel.Text" xml:space="preserve">
-    <value>m³</value>
-  </data>
-  <data name="Spacer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 101</value>
-  </data>
-  <data name="&gt;&gt;BuildResult.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>533, 43</value>
-  </data>
-  <data name="DesiredLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;QuantityUnits.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="CalculateUsing.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="ResourceTier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 24</value>
   </data>
   <data name="ResourceTier.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 21</value>
   </data>
-  <data name="Spacer.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;DesiredProduct.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;DesiredLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="TierLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 27</value>
-  </data>
-  <data name="&gt;&gt;ResourceTier.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;QuantityUnits.Name" xml:space="preserve">
-    <value>QuantityUnits</value>
-  </data>
-  <data name="QuantityUnits.Location" type="System.Drawing.Point, System.Drawing">
-    <value>678, 43</value>
-  </data>
-  <data name="MassLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="DesiredProduct.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsing.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ResourceTier.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;ResourceTier.Name" xml:space="preserve">
     <value>ResourceTier</value>
   </data>
-  <data name="&gt;&gt;DesiredLabel.Name" xml:space="preserve">
-    <value>DesiredLabel</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsing.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="QuantityUnits.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="Value.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 20</value>
-  </data>
-  <data name="MassLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>678, 44</value>
-  </data>
-  <data name="QuantityUnits.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="MassLabel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Spacer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>854, 6</value>
-  </data>
-  <data name="DesiredProduct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 21</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsingLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsing.Type" xml:space="preserve">
+  <data name="&gt;&gt;ResourceTier.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ResultsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 106</value>
+  <data name="&gt;&gt;ResourceTier.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="DesiredProduct.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="TierLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="ResourceTier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 24</value>
-  </data>
-  <data name="TierLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;MassLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CalculateUsing.Items" xml:space="preserve">
-    <value>Quantity</value>
-  </data>
-  <data name="&gt;&gt;Value.Name" xml:space="preserve">
-    <value>Value</value>
-  </data>
-  <data name="&gt;&gt;MassLabel.Name" xml:space="preserve">
-    <value>MassLabel</value>
+  <data name="&gt;&gt;ResourceTier.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="TierLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="TierLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;BuildResult.Name" xml:space="preserve">
-    <value>BuildResult</value>
-  </data>
-  <data name="DesiredProduct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 52</value>
-  </data>
-  <data name="ResultsPanel.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="QuantityUnits.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="DesiredLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 15</value>
-  </data>
-  <data name="CalculateUsing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsingLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BuildResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 19</value>
-  </data>
-  <data name="label1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>854, 342</value>
-  </data>
-  <data name="TierLabel.Text" xml:space="preserve">
-    <value>Product Tier</value>
-  </data>
-  <data name="&gt;&gt;ResultsPanel.Name" xml:space="preserve">
-    <value>ResultsPanel</value>
-  </data>
-  <data name="DesiredLabel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;Spacer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Value.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="DesiredLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 55</value>
-  </data>
-  <data name="&gt;&gt;ResultsPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ResourceTier.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CalculateUsingLabel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="CalculateUsing.Items1" xml:space="preserve">
-    <value>Maximum Mass</value>
-  </data>
-  <data name="&gt;&gt;BuildResult.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;CalculateUsingLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="DesiredLabel.Text" xml:space="preserve">
-    <value>Desired Product</value>
+  <data name="TierLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 27</value>
   </data>
   <data name="TierLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 15</value>
   </data>
+  <data name="TierLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TierLabel.Text" xml:space="preserve">
+    <value>Product Tier</value>
+  </data>
+  <data name="TierLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;TierLabel.Name" xml:space="preserve">
     <value>TierLabel</value>
-  </data>
-  <data name="Value.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 40</value>
-  </data>
-  <data name="&gt;&gt;Spacer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="QuantityUnits.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="MassLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 15</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TierLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Spacer.Name" xml:space="preserve">
-    <value>Spacer</value>
-  </data>
-  <data name="&gt;&gt;DesiredLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TierLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;MassLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ResultsPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;DesiredProduct.Name" xml:space="preserve">
-    <value>DesiredProduct</value>
-  </data>
-  <data name="DesiredLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Of</value>
-  </data>
-  <data name="&gt;&gt;BuildResult.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;TierLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;TierLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TierLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DesiredProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 52</value>
+  </data>
+  <data name="DesiredProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="DesiredProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DesiredProduct.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DesiredProduct.Name" xml:space="preserve">
+    <value>DesiredProduct</value>
+  </data>
+  <data name="&gt;&gt;DesiredProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DesiredProduct.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DesiredProduct.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="DesiredLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DesiredLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="DesiredLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 55</value>
+  </data>
+  <data name="DesiredLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="DesiredLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DesiredLabel.Text" xml:space="preserve">
+    <value>Desired Product</value>
+  </data>
+  <data name="DesiredLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="DesiredLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DesiredLabel.Name" xml:space="preserve">
+    <value>DesiredLabel</value>
+  </data>
+  <data name="&gt;&gt;DesiredLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DesiredLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DesiredLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ResultsPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ResultsPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ResultsPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ResultsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 106</value>
+  </data>
+  <data name="ResultsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ResultsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ResultsPanel.Name" xml:space="preserve">
+    <value>ResultsPanel</value>
+  </data>
+  <data name="&gt;&gt;ResultsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResultsPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ResultsPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CalculateUsing.Items" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="CalculateUsing.Items1" xml:space="preserve">
+    <value>Maximum Mass</value>
+  </data>
+  <data name="CalculateUsing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 40</value>
+  </data>
+  <data name="CalculateUsing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="CalculateUsing.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CalculateUsing.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsing.Name" xml:space="preserve">
+    <value>CalculateUsing</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsing.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsing.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CalculateUsingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CalculateUsingLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="CalculateUsingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 43</value>
+  </data>
+  <data name="CalculateUsingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 15</value>
+  </data>
+  <data name="CalculateUsingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="CalculateUsingLabel.Text" xml:space="preserve">
+    <value>Calculate Using</value>
+  </data>
+  <data name="CalculateUsingLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsingLabel.Name" xml:space="preserve">
+    <value>CalculateUsingLabel</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsingLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CalculateUsingLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 43</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Of</value>
+  </data>
+  <data name="label1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 40</value>
+  </data>
+  <data name="Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="Value.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Value.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Value.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Value.Name" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Value.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Value.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MassLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MassLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="MassLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 44</value>
+  </data>
+  <data name="MassLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="MassLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="MassLabel.Text" xml:space="preserve">
+    <value>m³</value>
+  </data>
+  <data name="MassLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MassLabel.Name" xml:space="preserve">
+    <value>MassLabel</value>
+  </data>
+  <data name="&gt;&gt;MassLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MassLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MassLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="QuantityUnits.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="QuantityUnits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="QuantityUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 43</value>
+  </data>
+  <data name="QuantityUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 15</value>
+  </data>
+  <data name="QuantityUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="QuantityUnits.Text" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="QuantityUnits.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;QuantityUnits.Name" xml:space="preserve">
+    <value>QuantityUnits</value>
+  </data>
+  <data name="&gt;&gt;QuantityUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QuantityUnits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;QuantityUnits.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BuildResult.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="BuildResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 19</value>
+  </data>
+  <data name="BuildResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="BuildResult.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BuildResult.Name" xml:space="preserve">
+    <value>BuildResult</value>
+  </data>
+  <data name="&gt;&gt;BuildResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BuildResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BuildResult.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 89</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>854, 5</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>854, 342</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

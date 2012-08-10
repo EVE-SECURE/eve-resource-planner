@@ -34,7 +34,6 @@
             this.DesiredProduct = new System.Windows.Forms.ComboBox();
             this.DesiredLabel = new System.Windows.Forms.Label();
             this.ResultsPanel = new System.Windows.Forms.Panel();
-            this.Spacer = new System.Windows.Forms.Panel();
             this.CalculateUsing = new System.Windows.Forms.ComboBox();
             this.CalculateUsingLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,14 +41,15 @@
             this.MassLabel = new System.Windows.Forms.Label();
             this.QuantityUnits = new System.Windows.Forms.Label();
             this.BuildResult = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // ResourceTier
             // 
-            resources.ApplyResources(this.ResourceTier, "ResourceTier");
             this.ResourceTier.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.ResourceTier.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ResourceTier.FormattingEnabled = true;
+            resources.ApplyResources(this.ResourceTier, "ResourceTier");
             this.ResourceTier.Name = "ResourceTier";
             this.ResourceTier.SelectedIndexChanged += new System.EventHandler(this.ResourceTier_SelectedIndexChanged);
             // 
@@ -63,10 +63,10 @@
             // 
             // DesiredProduct
             // 
-            resources.ApplyResources(this.DesiredProduct, "DesiredProduct");
             this.DesiredProduct.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.DesiredProduct.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.DesiredProduct.FormattingEnabled = true;
+            resources.ApplyResources(this.DesiredProduct, "DesiredProduct");
             this.DesiredProduct.Name = "DesiredProduct";
             this.DesiredProduct.SelectedIndexChanged += new System.EventHandler(this.DesiredProduct_SelectedIndexChanged);
             // 
@@ -81,21 +81,15 @@
             resources.ApplyResources(this.ResultsPanel, "ResultsPanel");
             this.ResultsPanel.Name = "ResultsPanel";
             // 
-            // Spacer
-            // 
-            resources.ApplyResources(this.Spacer, "Spacer");
-            this.Spacer.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Spacer.Name = "Spacer";
-            // 
             // CalculateUsing
             // 
-            resources.ApplyResources(this.CalculateUsing, "CalculateUsing");
             this.CalculateUsing.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.CalculateUsing.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CalculateUsing.FormattingEnabled = true;
             this.CalculateUsing.Items.AddRange(new object[] {
             resources.GetString("CalculateUsing.Items"),
             resources.GetString("CalculateUsing.Items1")});
+            resources.ApplyResources(this.CalculateUsing, "CalculateUsing");
             this.CalculateUsing.Name = "CalculateUsing";
             this.CalculateUsing.SelectedIndexChanged += new System.EventHandler(this.CalculateUsing_SelectedIndexChanged);
             // 
@@ -130,12 +124,17 @@
             // 
             // BuildResult
             // 
-            resources.ApplyResources(this.BuildResult, "BuildResult");
             this.BuildResult.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BuildResult.BackgroundImage = global::EVETool.Properties.Resources._23_64_2;
+            resources.ApplyResources(this.BuildResult, "BuildResult");
             this.BuildResult.Name = "BuildResult";
             this.BuildResult.UseVisualStyleBackColor = false;
             this.BuildResult.Click += new System.EventHandler(this.BuildResult_Click_1);
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
             // Resources
             // 
@@ -149,12 +148,12 @@
             this.Controls.Add(this.CalculateUsingLabel);
             this.Controls.Add(this.CalculateUsing);
             this.Controls.Add(this.BuildResult);
-            this.Controls.Add(this.Spacer);
             this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.DesiredLabel);
             this.Controls.Add(this.DesiredProduct);
             this.Controls.Add(this.TierLabel);
             this.Controls.Add(this.ResourceTier);
+            this.Controls.Add(this.panel1);
             this.Name = "Resources";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -168,7 +167,6 @@
         private System.Windows.Forms.ComboBox DesiredProduct;
         private System.Windows.Forms.Label DesiredLabel;
         private System.Windows.Forms.Panel ResultsPanel;
-        private System.Windows.Forms.Panel Spacer;
         private System.Windows.Forms.Button BuildResult;
         private System.Windows.Forms.ComboBox CalculateUsing;
         private System.Windows.Forms.Label CalculateUsingLabel;
@@ -176,5 +174,6 @@
         private System.Windows.Forms.TextBox Value;
         private System.Windows.Forms.Label MassLabel;
         private System.Windows.Forms.Label QuantityUnits;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -106,6 +106,9 @@
     <EmbeddedResource Include="Resources.en.resx">
       <DependentUpon>Resources.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ResourceWindow.en.resx">
+      <DependentUpon>ResourceWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ResourceWindow.resx">
       <DependentUpon>ResourceWindow.cs</DependentUpon>
     </EmbeddedResource>
