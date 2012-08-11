@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace EVETool
 {
@@ -15,6 +16,26 @@ namespace EVETool
         public P3_2(List<String> RawMaterial, int index, Double Amount)
         {
             InitializeComponent();
+            Stream P2Stream = null;
+            Stream P2_1Stream = null;
+            Stream P1Stream = null;
+            Stream P1_1Stream = null;
+            Stream P1_2Stream = null;
+            Stream P1_3Stream = null;
+            Stream P0Stream = null;
+            Stream P0_1Stream = null;
+            Stream P0_2Stream = null;
+            Stream P0_3Stream = null;
+            Image P2img = null;
+            Image P2_1img = null;
+            Image P1img = null;
+            Image P1_1img = null;
+            Image P1_2img = null;
+            Image P1_3img = null;
+            Image P0img = null;
+            Image P0_1img = null;
+            Image P0_2img = null;
+            Image P0_3img = null;
             FinalLabel.Text = RawMaterial[0];
             Resource1Label.Text = RawMaterial[1];
             Resource1_P1_1Label.Text = RawMaterial[2];

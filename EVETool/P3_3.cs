@@ -42,6 +42,8 @@ namespace EVETool
                     P1 = (P2 / 5) * 40;
                     RM = (P1 / 20) * 3000;
                     P2Amount.Text = String.Format("{0:n}", P2) + "u";
+                    P2Box1Amount.Text = P2Amount.Text;
+                    P2Box2Amount.Text = P2Amount.Text;
                     P1Amount.Text = String.Format("{0:n}", P1) + "u";
                     P1_1Amount.Text = P1Amount.Text;
                     P1_2Amount.Text = P1Amount.Text;
@@ -64,6 +66,8 @@ namespace EVETool
                 RM = (P1 / 20) * 3000;
                 FinalAmount.Text = String.Format("{0:n}", P3) + "u";
                 P2Amount.Text = String.Format("{0:n}", Math.Round(P2, 2)) + "u";
+                P2Box1Amount.Text = P2Amount.Text;
+                P2Box2Amount.Text = P2Amount.Text;
                 P1Amount.Text = String.Format("{0:n}", Math.Round(P1, 2)) + "u";
                 P1_1Amount.Text = P1Amount.Text;
                 P1_2Amount.Text = P1Amount.Text;

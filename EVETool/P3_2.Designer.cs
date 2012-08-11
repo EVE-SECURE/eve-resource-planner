@@ -49,26 +49,48 @@
             this.Resource2_P1_1_RMLabel = new System.Windows.Forms.TextBox();
             this.RM_1Amount = new System.Windows.Forms.TextBox();
             this.Resource2_P1_2_RMLabel = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.FinalAmount = new System.Windows.Forms.TextBox();
             this.FinalLabel = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.P0img = new System.Windows.Forms.PictureBox();
+            this.P0_1img = new System.Windows.Forms.PictureBox();
+            this.P0_2img = new System.Windows.Forms.PictureBox();
+            this.P0_3img = new System.Windows.Forms.PictureBox();
+            this.P1img = new System.Windows.Forms.PictureBox();
+            this.P1_1img = new System.Windows.Forms.PictureBox();
+            this.P1_2img = new System.Windows.Forms.PictureBox();
+            this.P1_3img = new System.Windows.Forms.PictureBox();
+            this.P2_1img = new System.Windows.Forms.PictureBox();
+            this.P2img = new System.Windows.Forms.PictureBox();
+            this.P3img = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P0img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_1img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_2img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_3img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_1img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_2img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_3img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_1img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3img)).BeginInit();
             this.SuspendLayout();
             // 
             // P2Amount
             // 
             this.P2Amount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P2Amount.Location = new System.Drawing.Point(363, 115);
+            this.P2Amount.Location = new System.Drawing.Point(453, 138);
             this.P2Amount.Name = "P2Amount";
             this.P2Amount.ReadOnly = true;
             this.P2Amount.Size = new System.Drawing.Size(100, 23);
@@ -80,7 +102,7 @@
             this.Resource1Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource1Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource1Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1Label.Location = new System.Drawing.Point(92, 8);
+            this.Resource1Label.Location = new System.Drawing.Point(100, 8);
             this.Resource1Label.Name = "Resource1Label";
             this.Resource1Label.ReadOnly = true;
             this.Resource1Label.Size = new System.Drawing.Size(132, 23);
@@ -93,7 +115,7 @@
             this.Resource1_P1_2Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource1_P1_2Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource1_P1_2Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1_P1_2Label.Location = new System.Drawing.Point(227, 156);
+            this.Resource1_P1_2Label.Location = new System.Drawing.Point(280, 185);
             this.Resource1_P1_2Label.Name = "Resource1_P1_2Label";
             this.Resource1_P1_2Label.ReadOnly = true;
             this.Resource1_P1_2Label.Size = new System.Drawing.Size(132, 23);
@@ -104,7 +126,7 @@
             // P1Amount
             // 
             this.P1Amount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P1Amount.Location = new System.Drawing.Point(174, 185);
+            this.P1Amount.Location = new System.Drawing.Point(227, 214);
             this.P1Amount.Name = "P1Amount";
             this.P1Amount.ReadOnly = true;
             this.P1Amount.Size = new System.Drawing.Size(100, 23);
@@ -116,7 +138,7 @@
             this.Resource1_P1_1Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource1_P1_1Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource1_P1_1Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1_P1_1Label.Location = new System.Drawing.Point(89, 156);
+            this.Resource1_P1_1Label.Location = new System.Drawing.Point(142, 185);
             this.Resource1_P1_1Label.Name = "Resource1_P1_1Label";
             this.Resource1_P1_1Label.ReadOnly = true;
             this.Resource1_P1_1Label.Size = new System.Drawing.Size(132, 23);
@@ -129,7 +151,7 @@
             this.Resource1_P1_2_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource1_P1_2_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource1_P1_2_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1_P1_2_RMLabel.Location = new System.Drawing.Point(89, 230);
+            this.Resource1_P1_2_RMLabel.Location = new System.Drawing.Point(142, 263);
             this.Resource1_P1_2_RMLabel.Name = "Resource1_P1_2_RMLabel";
             this.Resource1_P1_2_RMLabel.ReadOnly = true;
             this.Resource1_P1_2_RMLabel.Size = new System.Drawing.Size(132, 23);
@@ -140,7 +162,7 @@
             // RMAmount
             // 
             this.RMAmount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RMAmount.Location = new System.Drawing.Point(174, 259);
+            this.RMAmount.Location = new System.Drawing.Point(227, 292);
             this.RMAmount.Name = "RMAmount";
             this.RMAmount.ReadOnly = true;
             this.RMAmount.Size = new System.Drawing.Size(100, 23);
@@ -152,7 +174,7 @@
             this.Resource1_P1_1_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource1_P1_1_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource1_P1_1_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1_P1_1_RMLabel.Location = new System.Drawing.Point(227, 230);
+            this.Resource1_P1_1_RMLabel.Location = new System.Drawing.Point(280, 263);
             this.Resource1_P1_1_RMLabel.Name = "Resource1_P1_1_RMLabel";
             this.Resource1_P1_1_RMLabel.ReadOnly = true;
             this.Resource1_P1_1_RMLabel.Size = new System.Drawing.Size(132, 23);
@@ -163,10 +185,12 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.P0_1img);
+            this.panel1.Controls.Add(this.P0img);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(28, 221);
+            this.panel1.Location = new System.Drawing.Point(42, 254);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(385, 65);
+            this.panel1.Size = new System.Drawing.Size(455, 70);
             this.panel1.TabIndex = 50;
             // 
             // label2
@@ -184,10 +208,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.Controls.Add(this.P1_1img);
+            this.panel2.Controls.Add(this.P1img);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(28, 148);
+            this.panel2.Location = new System.Drawing.Point(42, 177);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(385, 64);
+            this.panel2.Size = new System.Drawing.Size(455, 70);
             this.panel2.TabIndex = 51;
             // 
             // label1
@@ -205,12 +231,14 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel3.Controls.Add(this.P2_1img);
             this.panel3.Controls.Add(this.Resource2Label);
+            this.panel3.Controls.Add(this.P2img);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.Resource1Label);
-            this.panel3.Location = new System.Drawing.Point(189, 78);
+            this.panel3.Location = new System.Drawing.Point(265, 101);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(452, 64);
+            this.panel3.Size = new System.Drawing.Size(452, 70);
             this.panel3.TabIndex = 52;
             // 
             // Resource2Label
@@ -218,7 +246,7 @@
             this.Resource2Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource2Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource2Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource2Label.Location = new System.Drawing.Point(230, 8);
+            this.Resource2Label.Location = new System.Drawing.Point(238, 8);
             this.Resource2Label.Name = "Resource2Label";
             this.Resource2Label.ReadOnly = true;
             this.Resource2Label.Size = new System.Drawing.Size(132, 23);
@@ -243,7 +271,7 @@
             this.Resource2_P1_2Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource2_P1_2Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource2_P1_2Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource2_P1_2Label.Location = new System.Drawing.Point(614, 156);
+            this.Resource2_P1_2Label.Location = new System.Drawing.Point(735, 185);
             this.Resource2_P1_2Label.Name = "Resource2_P1_2Label";
             this.Resource2_P1_2Label.ReadOnly = true;
             this.Resource2_P1_2Label.Size = new System.Drawing.Size(132, 23);
@@ -254,7 +282,7 @@
             // P1_1Amount
             // 
             this.P1_1Amount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P1_1Amount.Location = new System.Drawing.Point(561, 185);
+            this.P1_1Amount.Location = new System.Drawing.Point(682, 214);
             this.P1_1Amount.Name = "P1_1Amount";
             this.P1_1Amount.ReadOnly = true;
             this.P1_1Amount.Size = new System.Drawing.Size(100, 23);
@@ -266,7 +294,7 @@
             this.Resource2_P1_1Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource2_P1_1Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource2_P1_1Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource2_P1_1Label.Location = new System.Drawing.Point(476, 156);
+            this.Resource2_P1_1Label.Location = new System.Drawing.Point(597, 185);
             this.Resource2_P1_1Label.Name = "Resource2_P1_1Label";
             this.Resource2_P1_1Label.ReadOnly = true;
             this.Resource2_P1_1Label.Size = new System.Drawing.Size(132, 23);
@@ -279,7 +307,7 @@
             this.Resource2_P1_1_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource2_P1_1_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource2_P1_1_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource2_P1_1_RMLabel.Location = new System.Drawing.Point(476, 230);
+            this.Resource2_P1_1_RMLabel.Location = new System.Drawing.Point(597, 263);
             this.Resource2_P1_1_RMLabel.Name = "Resource2_P1_1_RMLabel";
             this.Resource2_P1_1_RMLabel.ReadOnly = true;
             this.Resource2_P1_1_RMLabel.Size = new System.Drawing.Size(132, 23);
@@ -290,7 +318,7 @@
             // RM_1Amount
             // 
             this.RM_1Amount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RM_1Amount.Location = new System.Drawing.Point(561, 259);
+            this.RM_1Amount.Location = new System.Drawing.Point(682, 292);
             this.RM_1Amount.Name = "RM_1Amount";
             this.RM_1Amount.ReadOnly = true;
             this.RM_1Amount.Size = new System.Drawing.Size(100, 23);
@@ -302,7 +330,7 @@
             this.Resource2_P1_2_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Resource2_P1_2_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resource2_P1_2_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource2_P1_2_RMLabel.Location = new System.Drawing.Point(614, 230);
+            this.Resource2_P1_2_RMLabel.Location = new System.Drawing.Point(735, 263);
             this.Resource2_P1_2_RMLabel.Name = "Resource2_P1_2_RMLabel";
             this.Resource2_P1_2_RMLabel.ReadOnly = true;
             this.Resource2_P1_2_RMLabel.Size = new System.Drawing.Size(132, 23);
@@ -310,34 +338,15 @@
             this.Resource2_P1_2_RMLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Resource2_P1_2_RMLabel.WordWrap = false;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(415, 221);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(387, 65);
-            this.panel4.TabIndex = 61;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(3, 4);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 19);
-            this.label4.TabIndex = 42;
-            this.label4.Text = "P0";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel5.Controls.Add(this.P1_3img);
+            this.panel5.Controls.Add(this.P1_2img);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(415, 148);
+            this.panel5.Location = new System.Drawing.Point(500, 177);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(387, 64);
+            this.panel5.Size = new System.Drawing.Size(451, 70);
             this.panel5.TabIndex = 62;
             // 
             // label5
@@ -355,18 +364,19 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel7.Controls.Add(this.P3img);
             this.panel7.Controls.Add(this.FinalAmount);
             this.panel7.Controls.Add(this.FinalLabel);
             this.panel7.Controls.Add(this.label7);
-            this.panel7.Location = new System.Drawing.Point(278, 6);
+            this.panel7.Location = new System.Drawing.Point(320, 25);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(270, 64);
+            this.panel7.Size = new System.Drawing.Size(351, 70);
             this.panel7.TabIndex = 64;
             // 
             // FinalAmount
             // 
             this.FinalAmount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FinalAmount.Location = new System.Drawing.Point(85, 37);
+            this.FinalAmount.Location = new System.Drawing.Point(133, 38);
             this.FinalAmount.Name = "FinalAmount";
             this.FinalAmount.ReadOnly = true;
             this.FinalAmount.Size = new System.Drawing.Size(100, 23);
@@ -378,7 +388,7 @@
             this.FinalLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.FinalLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FinalLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.FinalLabel.Location = new System.Drawing.Point(54, 8);
+            this.FinalLabel.Location = new System.Drawing.Point(102, 9);
             this.FinalLabel.Name = "FinalLabel";
             this.FinalLabel.ReadOnly = true;
             this.FinalLabel.Size = new System.Drawing.Size(163, 23);
@@ -397,6 +407,117 @@
             this.label7.TabIndex = 42;
             this.label7.Text = "P3";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(3, 4);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 19);
+            this.label4.TabIndex = 42;
+            this.label4.Text = "P0";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel4.Controls.Add(this.P0_3img);
+            this.panel4.Controls.Add(this.P0_2img);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Location = new System.Drawing.Point(500, 254);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(451, 70);
+            this.panel4.TabIndex = 61;
+            // 
+            // P0img
+            // 
+            this.P0img.Location = new System.Drawing.Point(30, 3);
+            this.P0img.Name = "P0img";
+            this.P0img.Size = new System.Drawing.Size(64, 64);
+            this.P0img.TabIndex = 65;
+            this.P0img.TabStop = false;
+            // 
+            // P0_1img
+            // 
+            this.P0_1img.Location = new System.Drawing.Point(376, 3);
+            this.P0_1img.Name = "P0_1img";
+            this.P0_1img.Size = new System.Drawing.Size(64, 64);
+            this.P0_1img.TabIndex = 66;
+            this.P0_1img.TabStop = false;
+            // 
+            // P0_2img
+            // 
+            this.P0_2img.Location = new System.Drawing.Point(27, 3);
+            this.P0_2img.Name = "P0_2img";
+            this.P0_2img.Size = new System.Drawing.Size(64, 64);
+            this.P0_2img.TabIndex = 67;
+            this.P0_2img.TabStop = false;
+            // 
+            // P0_3img
+            // 
+            this.P0_3img.Location = new System.Drawing.Point(373, 3);
+            this.P0_3img.Name = "P0_3img";
+            this.P0_3img.Size = new System.Drawing.Size(64, 64);
+            this.P0_3img.TabIndex = 68;
+            this.P0_3img.TabStop = false;
+            // 
+            // P1img
+            // 
+            this.P1img.Location = new System.Drawing.Point(30, 3);
+            this.P1img.Name = "P1img";
+            this.P1img.Size = new System.Drawing.Size(64, 64);
+            this.P1img.TabIndex = 66;
+            this.P1img.TabStop = false;
+            // 
+            // P1_1img
+            // 
+            this.P1_1img.Location = new System.Drawing.Point(376, 3);
+            this.P1_1img.Name = "P1_1img";
+            this.P1_1img.Size = new System.Drawing.Size(64, 64);
+            this.P1_1img.TabIndex = 66;
+            this.P1_1img.TabStop = false;
+            // 
+            // P1_2img
+            // 
+            this.P1_2img.Location = new System.Drawing.Point(27, 3);
+            this.P1_2img.Name = "P1_2img";
+            this.P1_2img.Size = new System.Drawing.Size(64, 64);
+            this.P1_2img.TabIndex = 66;
+            this.P1_2img.TabStop = false;
+            // 
+            // P1_3img
+            // 
+            this.P1_3img.Location = new System.Drawing.Point(373, 3);
+            this.P1_3img.Name = "P1_3img";
+            this.P1_3img.Size = new System.Drawing.Size(64, 64);
+            this.P1_3img.TabIndex = 66;
+            this.P1_3img.TabStop = false;
+            // 
+            // P2_1img
+            // 
+            this.P2_1img.Location = new System.Drawing.Point(376, 3);
+            this.P2_1img.Name = "P2_1img";
+            this.P2_1img.Size = new System.Drawing.Size(64, 64);
+            this.P2_1img.TabIndex = 67;
+            this.P2_1img.TabStop = false;
+            // 
+            // P2img
+            // 
+            this.P2img.Location = new System.Drawing.Point(30, 3);
+            this.P2img.Name = "P2img";
+            this.P2img.Size = new System.Drawing.Size(64, 64);
+            this.P2img.TabIndex = 67;
+            this.P2img.TabStop = false;
+            // 
+            // P3img
+            // 
+            this.P3img.Location = new System.Drawing.Point(32, 3);
+            this.P3img.Name = "P3img";
+            this.P3img.Size = new System.Drawing.Size(64, 64);
+            this.P3img.TabIndex = 68;
+            this.P3img.TabStop = false;
             // 
             // P3_2
             // 
@@ -424,19 +545,30 @@
             this.Controls.Add(this.panel3);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "P3_2";
-            this.Size = new System.Drawing.Size(830, 296);
+            this.Size = new System.Drawing.Size(994, 342);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P0img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_1img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_2img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_3img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_1img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_2img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_3img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_1img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3img)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -464,8 +596,6 @@
         private System.Windows.Forms.TextBox Resource2_P1_1_RMLabel;
         private System.Windows.Forms.TextBox RM_1Amount;
         private System.Windows.Forms.TextBox Resource2_P1_2_RMLabel;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel7;
@@ -473,6 +603,19 @@
         private System.Windows.Forms.TextBox FinalAmount;
         private System.Windows.Forms.TextBox FinalLabel;
         private System.Windows.Forms.TextBox Resource2Label;
+        private System.Windows.Forms.PictureBox P0_1img;
+        private System.Windows.Forms.PictureBox P0img;
+        private System.Windows.Forms.PictureBox P1_1img;
+        private System.Windows.Forms.PictureBox P1img;
+        private System.Windows.Forms.PictureBox P2_1img;
+        private System.Windows.Forms.PictureBox P2img;
+        private System.Windows.Forms.PictureBox P1_3img;
+        private System.Windows.Forms.PictureBox P1_2img;
+        private System.Windows.Forms.PictureBox P3img;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox P0_3img;
+        private System.Windows.Forms.PictureBox P0_2img;
 
 
     }

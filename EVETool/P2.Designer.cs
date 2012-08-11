@@ -37,30 +37,30 @@
             this.Final = new System.Windows.Forms.TextBox();
             this.FinalAmount = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.P0_1Pic = new System.Windows.Forms.PictureBox();
+            this.P0Pic = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.P1_1Pic = new System.Windows.Forms.PictureBox();
+            this.P1Pic = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.P1Pic = new System.Windows.Forms.PictureBox();
-            this.P0Pic = new System.Windows.Forms.PictureBox();
-            this.P1_1Pic = new System.Windows.Forms.PictureBox();
-            this.P0_1Pic = new System.Windows.Forms.PictureBox();
             this.P2Pic = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P0Pic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1_1Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P0_1Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0Pic)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_1Pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P2Pic)).BeginInit();
             this.SuspendLayout();
             // 
             // RMAmount
             // 
             this.RMAmount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RMAmount.Location = new System.Drawing.Point(364, 190);
+            this.RMAmount.Location = new System.Drawing.Point(369, 190);
             this.RMAmount.Name = "RMAmount";
             this.RMAmount.ReadOnly = true;
             this.RMAmount.Size = new System.Drawing.Size(100, 23);
@@ -72,7 +72,7 @@
             this.P1_1_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.P1_1_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P1_1_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.P1_1_RMLabel.Location = new System.Drawing.Point(417, 161);
+            this.P1_1_RMLabel.Location = new System.Drawing.Point(422, 161);
             this.P1_1_RMLabel.Name = "P1_1_RMLabel";
             this.P1_1_RMLabel.ReadOnly = true;
             this.P1_1_RMLabel.Size = new System.Drawing.Size(132, 23);
@@ -85,7 +85,7 @@
             this.P1_2_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.P1_2_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P1_2_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.P1_2_RMLabel.Location = new System.Drawing.Point(279, 161);
+            this.P1_2_RMLabel.Location = new System.Drawing.Point(284, 161);
             this.P1_2_RMLabel.Name = "P1_2_RMLabel";
             this.P1_2_RMLabel.ReadOnly = true;
             this.P1_2_RMLabel.Size = new System.Drawing.Size(132, 23);
@@ -98,7 +98,7 @@
             this.P1_2Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.P1_2Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P1_2Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.P1_2Label.Location = new System.Drawing.Point(417, 88);
+            this.P1_2Label.Location = new System.Drawing.Point(422, 88);
             this.P1_2Label.Name = "P1_2Label";
             this.P1_2Label.ReadOnly = true;
             this.P1_2Label.Size = new System.Drawing.Size(132, 23);
@@ -109,7 +109,7 @@
             // P1Amount
             // 
             this.P1Amount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P1Amount.Location = new System.Drawing.Point(364, 117);
+            this.P1Amount.Location = new System.Drawing.Point(369, 117);
             this.P1Amount.Name = "P1Amount";
             this.P1Amount.ReadOnly = true;
             this.P1Amount.Size = new System.Drawing.Size(100, 23);
@@ -121,7 +121,7 @@
             this.P1_1Label.BackColor = System.Drawing.SystemColors.ControlDark;
             this.P1_1Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.P1_1Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.P1_1Label.Location = new System.Drawing.Point(279, 88);
+            this.P1_1Label.Location = new System.Drawing.Point(284, 88);
             this.P1_1Label.Name = "P1_1Label";
             this.P1_1Label.ReadOnly = true;
             this.P1_1Label.Size = new System.Drawing.Size(132, 23);
@@ -134,7 +134,7 @@
             this.Final.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Final.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Final.ForeColor = System.Drawing.SystemColors.Window;
-            this.Final.Location = new System.Drawing.Point(348, 17);
+            this.Final.Location = new System.Drawing.Point(353, 17);
             this.Final.Name = "Final";
             this.Final.ReadOnly = true;
             this.Final.Size = new System.Drawing.Size(132, 23);
@@ -145,7 +145,7 @@
             // FinalAmount
             // 
             this.FinalAmount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FinalAmount.Location = new System.Drawing.Point(364, 46);
+            this.FinalAmount.Location = new System.Drawing.Point(369, 46);
             this.FinalAmount.Name = "FinalAmount";
             this.FinalAmount.ReadOnly = true;
             this.FinalAmount.Size = new System.Drawing.Size(100, 23);
@@ -158,10 +158,26 @@
             this.panel1.Controls.Add(this.P0_1Pic);
             this.panel1.Controls.Add(this.P0Pic);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(172, 152);
+            this.panel1.Location = new System.Drawing.Point(177, 152);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(464, 70);
             this.panel1.TabIndex = 39;
+            // 
+            // P0_1Pic
+            // 
+            this.P0_1Pic.Location = new System.Drawing.Point(383, 3);
+            this.P0_1Pic.Name = "P0_1Pic";
+            this.P0_1Pic.Size = new System.Drawing.Size(64, 64);
+            this.P0_1Pic.TabIndex = 43;
+            this.P0_1Pic.TabStop = false;
+            // 
+            // P0Pic
+            // 
+            this.P0Pic.Location = new System.Drawing.Point(37, 3);
+            this.P0Pic.Name = "P0Pic";
+            this.P0Pic.Size = new System.Drawing.Size(64, 64);
+            this.P0Pic.TabIndex = 43;
+            this.P0Pic.TabStop = false;
             // 
             // label2
             // 
@@ -181,10 +197,26 @@
             this.panel2.Controls.Add(this.P1_1Pic);
             this.panel2.Controls.Add(this.P1Pic);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(172, 80);
+            this.panel2.Location = new System.Drawing.Point(177, 80);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(464, 70);
             this.panel2.TabIndex = 40;
+            // 
+            // P1_1Pic
+            // 
+            this.P1_1Pic.Location = new System.Drawing.Point(383, 3);
+            this.P1_1Pic.Name = "P1_1Pic";
+            this.P1_1Pic.Size = new System.Drawing.Size(64, 64);
+            this.P1_1Pic.TabIndex = 43;
+            this.P1_1Pic.TabStop = false;
+            // 
+            // P1Pic
+            // 
+            this.P1Pic.Location = new System.Drawing.Point(37, 3);
+            this.P1Pic.Name = "P1Pic";
+            this.P1Pic.Size = new System.Drawing.Size(64, 64);
+            this.P1Pic.TabIndex = 42;
+            this.P1Pic.TabStop = false;
             // 
             // label1
             // 
@@ -203,10 +235,18 @@
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel3.Controls.Add(this.P2Pic);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(242, 8);
+            this.panel3.Location = new System.Drawing.Point(247, 8);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(334, 70);
             this.panel3.TabIndex = 41;
+            // 
+            // P2Pic
+            // 
+            this.P2Pic.Location = new System.Drawing.Point(36, 3);
+            this.P2Pic.Name = "P2Pic";
+            this.P2Pic.Size = new System.Drawing.Size(64, 64);
+            this.P2Pic.TabIndex = 43;
+            this.P2Pic.TabStop = false;
             // 
             // label3
             // 
@@ -219,46 +259,6 @@
             this.label3.TabIndex = 42;
             this.label3.Text = "P2";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // P1Pic
-            // 
-            this.P1Pic.Location = new System.Drawing.Point(37, 3);
-            this.P1Pic.Name = "P1Pic";
-            this.P1Pic.Size = new System.Drawing.Size(64, 64);
-            this.P1Pic.TabIndex = 42;
-            this.P1Pic.TabStop = false;
-            // 
-            // P0Pic
-            // 
-            this.P0Pic.Location = new System.Drawing.Point(37, 3);
-            this.P0Pic.Name = "P0Pic";
-            this.P0Pic.Size = new System.Drawing.Size(64, 64);
-            this.P0Pic.TabIndex = 43;
-            this.P0Pic.TabStop = false;
-            // 
-            // P1_1Pic
-            // 
-            this.P1_1Pic.Location = new System.Drawing.Point(383, 3);
-            this.P1_1Pic.Name = "P1_1Pic";
-            this.P1_1Pic.Size = new System.Drawing.Size(64, 64);
-            this.P1_1Pic.TabIndex = 43;
-            this.P1_1Pic.TabStop = false;
-            // 
-            // P0_1Pic
-            // 
-            this.P0_1Pic.Location = new System.Drawing.Point(383, 3);
-            this.P0_1Pic.Name = "P0_1Pic";
-            this.P0_1Pic.Size = new System.Drawing.Size(64, 64);
-            this.P0_1Pic.TabIndex = 43;
-            this.P0_1Pic.TabStop = false;
-            // 
-            // P2Pic
-            // 
-            this.P2Pic.Location = new System.Drawing.Point(36, 3);
-            this.P2Pic.Name = "P2Pic";
-            this.P2Pic.Size = new System.Drawing.Size(64, 64);
-            this.P2Pic.TabIndex = 43;
-            this.P2Pic.TabStop = false;
             // 
             // P2
             // 
@@ -280,14 +280,14 @@
             this.Size = new System.Drawing.Size(850, 233);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P0_1Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P0Pic)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_1Pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P0Pic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1_1Pic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P0_1Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P2Pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
