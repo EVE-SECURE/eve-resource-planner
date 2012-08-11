@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResourceWindow));
             this.ResourcePanel = new System.Windows.Forms.Panel();
             this.NewIndustryInter = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.SetSize = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // ResourcePanel
@@ -42,15 +42,15 @@
             // NewIndustryInter
             // 
             resources.ApplyResources(this.NewIndustryInter, "NewIndustryInter");
-            this.NewIndustryInter.BackgroundImage = global::EVETool.Properties.Resources._33_128_2;
+            this.NewIndustryInter.BackgroundImage = Properties.Resources._33_128_2;
             this.NewIndustryInter.Name = "NewIndustryInter";
             this.NewIndustryInter.UseVisualStyleBackColor = true;
             this.NewIndustryInter.Click += new System.EventHandler(this.NewIndustryInter_Click);
             // 
-            // panel1
+            // SetSize
             // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            resources.ApplyResources(this.SetSize, "SetSize");
+            this.SetSize.Name = "SetSize";
             // 
             // ResourceWindow
             // 
@@ -59,7 +59,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Controls.Add(this.ResourcePanel);
             this.Controls.Add(this.NewIndustryInter);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.SetSize);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "ResourceWindow";
@@ -72,7 +72,7 @@
 
         private System.Windows.Forms.Button NewIndustryInter;
         private System.Windows.Forms.Panel ResourcePanel;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel SetSize;
     }
 }
 

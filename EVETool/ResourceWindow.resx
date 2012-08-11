@@ -673,6 +673,9 @@
   <data name="NewIndustryInter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
+  <data name="&gt;&gt;SetSize.Name" xml:space="preserve">
+    <value>SetSize</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>875, 433</value>
   </data>
@@ -690,6 +693,12 @@
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SetSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 416</value>
+  </data>
+  <data name="&gt;&gt;SetSize.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -709,6 +718,9 @@
   <data name="&gt;&gt;ResourcePanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;SetSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;NewIndustryInter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -721,8 +733,11 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ResourceWindow</value>
   </data>
-  <data name="NewIndustryInter.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="SetSize.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
   <data name="&gt;&gt;ResourcePanel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -733,11 +748,14 @@
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 12</value>
   </data>
+  <data name="&gt;&gt;SetSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;NewIndustryInter.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="NewIndustryInter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Resource Planner</value>

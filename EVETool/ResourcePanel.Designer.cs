@@ -1,6 +1,6 @@
 ﻿namespace EVETool
 {
-    partial class Resources
+    partial class ResourcePanel
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Resources));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResourcePanel));
             this.ResourceTier = new System.Windows.Forms.ComboBox();
             this.TierLabel = new System.Windows.Forms.Label();
             this.DesiredProduct = new System.Windows.Forms.ComboBox();
@@ -41,7 +41,7 @@
             this.MassLabel = new System.Windows.Forms.Label();
             this.QuantityUnits = new System.Windows.Forms.Label();
             this.BuildResult = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.SetSize = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // ResourceTier
@@ -125,16 +125,16 @@
             // BuildResult
             // 
             this.BuildResult.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.BuildResult.BackgroundImage = global::EVETool.Properties.Resources._23_64_2;
+            this.BuildResult.BackgroundImage = Properties.Resources._23_64_2;
             resources.ApplyResources(this.BuildResult, "BuildResult");
             this.BuildResult.Name = "BuildResult";
             this.BuildResult.UseVisualStyleBackColor = false;
             this.BuildResult.Click += new System.EventHandler(this.BuildResult_Click_1);
             // 
-            // panel1
+            // SetSize
             // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            resources.ApplyResources(this.SetSize, "SetSize");
+            this.SetSize.Name = "SetSize";
             // 
             // Resources
             // 
@@ -153,7 +153,7 @@
             this.Controls.Add(this.DesiredProduct);
             this.Controls.Add(this.TierLabel);
             this.Controls.Add(this.ResourceTier);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.SetSize);
             this.Name = "Resources";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -174,6 +174,6 @@
         private System.Windows.Forms.TextBox Value;
         private System.Windows.Forms.Label MassLabel;
         private System.Windows.Forms.Label QuantityUnits;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel SetSize;
     }
 }

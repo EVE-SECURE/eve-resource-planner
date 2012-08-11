@@ -135,10 +135,7 @@
   <data name="NewIndustryInter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 416</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SetSize.Size" type="System.Drawing.Size, System.Drawing">
     <value>854, 5</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">

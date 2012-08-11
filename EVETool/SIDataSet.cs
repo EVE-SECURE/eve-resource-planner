@@ -1,4 +1,5 @@
-﻿namespace EVETool {
+﻿namespace EVETool
+{
     
     
     public partial class SIDataSet {

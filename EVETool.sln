@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcePlanner", "EVETool\ResourcePlanner.csproj", "{9F341207-F178-477C-8543-43BE6E77DF72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVETool", "EVETool\EVETool.csproj", "{9F341207-F178-477C-8543-43BE6E77DF72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +16,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal

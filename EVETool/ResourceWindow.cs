@@ -20,7 +20,7 @@ namespace EVETool
         private void NewIndustryInter_Click(object sender, EventArgs e)
         {
             ResourcePanel.Controls.Clear();
-            ResourcePanel.Controls.Add(new Resources());
+            ResourcePanel.Controls.Add(new ResourcePanel());
         }
     }
 }

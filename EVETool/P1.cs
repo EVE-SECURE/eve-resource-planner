@@ -7,16 +7,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Reflection;
 
 namespace EVETool
 {
     public partial class P1 : UserControl
     {
         public P1(List<String> P1Resources, int Index, Double Amount)
-        {
+        {   
             InitializeComponent();
+            Stream P1Stream = null;
+            Stream P0Stream = null;
+            Image P1img = null;
+            Image P0img = null;
             Result.Text = P1Resources[0];
             RMLabel.Text = P1Resources[1];
+            try
+            {
+                P1Stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[0] + ".png");
+                P1img = Image.FromStream(P1Stream, true, true);
+                P1Pic.Image = P1img;
+            }
+            catch (ArgumentException e)
+            {
+                if (P1img != null)
+                    P1img.Dispose();
+
+                if (P1Stream != null)
+                    P1Stream.Dispose();
+
+                P1Pic.Image = null;
+            }
+            try
+            {
+                P0Stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[1] + ".png");
+                P0img = Image.FromStream(P0Stream, true, true);
+                P0Pic.Image = P0img;
+            }
+            catch (ArgumentException e)
+            {
+                if (P0img != null)
+                    P0img.Dispose();
+
+                if (P0Stream != null)
+                    P0Stream.Dispose();
+
+                P0Pic.Image = null;
+            }
+
+
 
             if (Index == 0) {
                 if (Amount % 20 == 0) {

@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace EVETool {
 
-    public partial class Resources : UserControl
+    public partial class ResourcePanel : UserControl
     {
-        public Resources()
+        public ResourcePanel()
         {
             InitializeComponent();
             ResourceTier.Items.Add("Tier 1");
@@ -175,11 +175,11 @@ namespace EVETool {
                 Popup error = new Popup("Format Exception", "There has been a problem Calculating your request. Are you sure you have filled in the Tier, Resource, and Quantity?");
                 error.Show();
             }
-            catch (System.Exception)
+            /*catch (System.Exception)
             {
                 Popup error = new Popup("Error", "I'm Sorry. An error has occurred.");
                 error.Show();
-            }
+            }*/
         }
     }
 }
