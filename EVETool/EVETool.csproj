@@ -33,7 +33,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -59,6 +59,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -265,14 +268,12 @@
     <EmbeddedResource Include="Resources\Silicon.png" />
     <EmbeddedResource Include="Resources\Smartfab Units.png" />
     <EmbeddedResource Include="Resources\Sterile Conduits.png" />
-    <EmbeddedResource Include="Resources\Super Computers.png" />
     <EmbeddedResource Include="Resources\Supertensile Plastics.png" />
     <EmbeddedResource Include="Resources\Suspended Plasma.png" />
     <EmbeddedResource Include="Resources\Synthetic Oil.png" />
     <EmbeddedResource Include="Resources\Synthetic Synapses.png" />
     <EmbeddedResource Include="Resources\Test Cultures.png" />
     <EmbeddedResource Include="Resources\Toxic Metals.png" />
-    <EmbeddedResource Include="Resources\Transcranial Microcontrollers.png" />
     <EmbeddedResource Include="Resources\Transmitter.png" />
     <EmbeddedResource Include="Resources\Vaccines.png" />
     <EmbeddedResource Include="Resources\Viral Agent.png" />
@@ -282,9 +283,11 @@
     <None Include="Resources\33_128_2.png" />
     <EmbeddedResource Include="Resources\Reactive Gas.png" />
     <EmbeddedResource Include="Resources\Superconductors.png" />
-    <EmbeddedResource Include="Resources\Ukomi Superconductors.png" />
     <EmbeddedResource Include="Resources\Construction Blocks.png" />
     <EmbeddedResource Include="Resources\Enriched Uranium.png" />
+    <EmbeddedResource Include="Resources\Transcranial Microcontroller.png" />
+    <EmbeddedResource Include="Resources\Supercomputers.png" />
+    <EmbeddedResource Include="Resources\Ukomi Superconductors.png" />
     <Content Include="ScienceIndustry.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -753,9 +753,9 @@ namespace EVETool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Super_Computers {
+        internal static System.Drawing.Bitmap Supercomputers {
             get {
-                object obj = ResourceManager.GetObject("Super_Computers", resourceCulture);
+                object obj = ResourceManager.GetObject("Supercomputers", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -833,9 +833,9 @@ namespace EVETool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Transcranial_Microcontrollers {
+        internal static System.Drawing.Bitmap Transcranial_Microcontroller {
             get {
-                object obj = ResourceManager.GetObject("Transcranial_Microcontrollers", resourceCulture);
+                object obj = ResourceManager.GetObject("Transcranial_Microcontroller", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

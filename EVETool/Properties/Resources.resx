@@ -310,9 +310,6 @@
   <data name="Supertensile_Plastics" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Supertensile Plastics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Super_Computers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Super Computers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Suspended_Plasma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Suspended Plasma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -327,9 +324,6 @@
   </data>
   <data name="Toxic_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Toxic Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transcranial_Microcontrollers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transcranial Microcontrollers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Transmitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Transmitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -366,6 +360,12 @@
   </data>
   <data name="Superconductors" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Superconductors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transcranial_Microcontroller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transcranial Microcontroller.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supercomputers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Supercomputers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ukomi_Superconductors" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ukomi Superconductors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
