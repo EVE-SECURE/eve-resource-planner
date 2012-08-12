@@ -42,10 +42,11 @@
             // NewIndustryInter
             // 
             resources.ApplyResources(this.NewIndustryInter, "NewIndustryInter");
-            this.NewIndustryInter.BackgroundImage = Properties.Resources._33_128_2;
             this.NewIndustryInter.Name = "NewIndustryInter";
             this.NewIndustryInter.UseVisualStyleBackColor = true;
             this.NewIndustryInter.Click += new System.EventHandler(this.NewIndustryInter_Click);
+            this.NewIndustryInter.BackgroundImage = global::EVETool.Properties.Resources._33_128_2;
+          
             // 
             // SetSize
             // 

@@ -25,11 +25,12 @@ namespace EVETool
             RMLabel.Text = P1Resources[1];
             try
             {
+                // Pulls the image by the name of the resource stored in list from running assembly.
                 P1Stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[0] + ".png");
                 P1img = Image.FromStream(P1Stream, true, true);
                 P1Pic.Image = P1img;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 if (P1img != null)
                     P1img.Dispose();
@@ -41,11 +42,12 @@ namespace EVETool
             }
             try
             {
+                // Pulls the image by the name of the resource stored in list from running assembly.
                 P0Stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[1] + ".png");
                 P0img = Image.FromStream(P0Stream, true, true);
                 P0Pic.Image = P0img;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 if (P0img != null)
                     P0img.Dispose();

@@ -118,259 +118,259 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Aqueous_Liquids" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Aqueous Liquids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Autotrophs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Autotrophs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bacteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bacteria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Base_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Base Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Biocells" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Biocells.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Biofuels" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Biofuels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Biomass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Biomass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Biotech_Research_Reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Biotech Research Reports.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Broadcast_Node" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Broadcast Node.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Camera_Drones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Camera Drones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Carbon_Compounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Carbon Compounds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chiral_Structures" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chiral Structures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Complex_Organisms" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Complex Organisms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Condensates" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Condensates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Consumer_Electronics" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Consumer Electronics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Coolant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coolant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cryoprotectant_Solution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cryoprotectant Solution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Non_CS_Crystals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Non-CS Crystals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Data_Chips" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Data Chips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Electrolytes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Electrolytes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Felsic_Magma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Felsic Magma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Fertilizer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fertilizer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gel_Matrix_Biopaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gel-Matrix Biopaste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Genetically_Enhanced_Livestock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Genetically Enhanced Livestock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Guidance_Systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Guidance Systems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hazmat_Detection_Systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hazmat Detection Systems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Heavy_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Heavy Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hermetic_Membranes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hermetic Membranes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="High_Tech_Transmitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\High-Tech Transmitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Industrial_Explosives" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Industrial Explosives.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Industrial_Fibers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Industrial Fibers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Integrity_Response_Drones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Integrity Response Drones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Livestock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Livestock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mechanical_Parts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mechanical Parts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Microfiber_Shielding" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Microfiber Shielding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Micro_Organisms" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Micro Organisms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Miniature_Electronics" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Miniature Electronics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nanites" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nanites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nano_Factory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nano-Factory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Camera_Drones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camera Drones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Neocoms" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Neocoms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Noble_Gas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Noble Gas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Noble_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Noble Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Non_CS_Crystals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Non-CS Crystals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nuclear_Reactors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuclear Reactors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Organic_Mortar_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Organic Mortar Applications.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Oxides" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Oxides.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Oxidizing_Compound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Oxidizing Compound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Oxygen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Oxygen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Planetary_Vehicles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Planetary Vehicles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Planktic_Colonies" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Planktic Colonies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Plasmoids" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Plasmoids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Polyaramids" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Polyaramids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Polytextiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Polytextiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Precious_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Precious Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Proteins" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Proteins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Reactive_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Reactive Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Recursive_Computing_Module" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Recursive Computing Module.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Robotics" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Robotics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rocket_Fuel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rocket Fuel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Self_Harmonizing_Power_Core" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Self Harmonizing Power Core.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Silicate_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Silicate Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Silicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Silicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Smartfab_Units" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Smartfab Units.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sterile_Conduits" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sterile Conduits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Supertensile_Plastics" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Supertensile Plastics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Suspended_Plasma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Suspended Plasma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Synthetic_Oil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Synthetic Oil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Synthetic_Synapses" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Synthetic Synapses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Test_Cultures" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Test Cultures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Toxic_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Toxic Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Transmitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Transmitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vaccines" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vaccines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Viral_Agent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Viral Agent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Water_Cooled_CPU" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Water-Cooled CPU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_23_64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\23_64_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_33_128_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\33_128_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ionic_Solution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ionic Solution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Reactive_Gas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Reactive Gas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Construction_Blocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Construction Blocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Enriched_Uranium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Enriched Uranium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Superconductors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Superconductors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Micro_Organisms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Micro Organisms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Transcranial_Microcontroller" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Transcranial Microcontroller.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Supercomputers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Supercomputers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Biocells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biocells.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supertensile_Plastics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Supertensile Plastics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nano_Factory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nano-Factory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nanites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nanites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reactive_Gas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reactive Gas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Self_Harmonizing_Power_Core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Self Harmonizing Power Core.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ionic_Solution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ionic Solution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heavy Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carbon_Compounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carbon Compounds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Superconductors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Superconductors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Base_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Base Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Biomass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biomass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enriched_Uranium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enriched Uranium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planktic_Colonies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Planktic Colonies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Noble_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Noble Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coolant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coolant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Broadcast_Node" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Broadcast Node.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smartfab_Units" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Smartfab Units.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Complex_Organisms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Complex Organisms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sterile_Conduits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sterile Conduits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Test_Cultures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Test Cultures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Noble_Gas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Noble Gas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_Cooled_CPU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water-Cooled CPU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Biofuels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biofuels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Construction_Blocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Construction Blocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Viral_Agent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Viral Agent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Proteins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Proteins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ukomi_Superconductors" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ukomi Superconductors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Vaccines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vaccines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suspended_Plasma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suspended Plasma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Industrial_Fibers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Industrial Fibers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Electrolytes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Electrolytes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxygen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toxic_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toxic Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guidance_Systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guidance Systems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nuclear_Reactors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuclear Reactors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genetically_Enhanced_Livestock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genetically Enhanced Livestock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Organic_Mortar_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Organic Mortar Applications.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hazmat_Detection_Systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hazmat Detection Systems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microfiber_Shielding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microfiber Shielding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Synthetic_Oil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Synthetic Oil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planetary_Vehicles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Planetary Vehicles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Recursive_Computing_Module" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Recursive Computing Module.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_33_128_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33_128_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transmitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transmitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Autotrophs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Autotrophs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Condensates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Condensates.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polyaramids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polyaramids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxides" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxides.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hermetic_Membranes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hermetic Membranes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chiral_Structures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chiral Structures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polytextiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polytextiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miniature_Electronics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miniature Electronics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23_64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23_64_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Robotics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Robotics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_9_64_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9_64_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gel_Matrix_Biopaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gel-Matrix Biopaste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Integrity_Response_Drones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Integrity Response Drones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bacteria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bacteria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Biotech_Research_Reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biotech Research Reports.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Consumer_Electronics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Consumer Electronics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Synthetic_Synapses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Synthetic Synapses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Industrial_Explosives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Industrial Explosives.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reactive_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reactive Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="High_Tech_Transmitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\High-Tech Transmitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Felsic_Magma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Felsic Magma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxidizing_Compound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxidizing Compound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aqueous_Liquids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aqueous Liquids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silicate_Glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silicate Glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Livestock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Livestock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supercomputers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Supercomputers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Precious_Metals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Precious Metals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rocket_Fuel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rocket Fuel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plasmoids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plasmoids.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mechanical_Parts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mechanical Parts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cryoprotectant_Solution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cryoprotectant Solution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -280,7 +280,6 @@
     <EmbeddedResource Include="Resources\Water.png" />
     <EmbeddedResource Include="Resources\Water-Cooled CPU.png" />
     <None Include="Resources\23_64_2.png" />
-    <None Include="Resources\33_128_2.png" />
     <EmbeddedResource Include="Resources\Reactive Gas.png" />
     <EmbeddedResource Include="Resources\Superconductors.png" />
     <EmbeddedResource Include="Resources\Construction Blocks.png" />
@@ -289,6 +288,7 @@
     <EmbeddedResource Include="Resources\Supercomputers.png" />
     <EmbeddedResource Include="Resources\Ukomi Superconductors.png" />
     <None Include="Resources\9_64_6.png" />
+    <None Include="Resources\33_128_2.png" />
     <Content Include="ScienceIndustry.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

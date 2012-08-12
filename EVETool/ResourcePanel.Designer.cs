@@ -46,10 +46,10 @@
             // 
             // ResourceTier
             // 
+            resources.ApplyResources(this.ResourceTier, "ResourceTier");
             this.ResourceTier.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.ResourceTier.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.ResourceTier.FormattingEnabled = true;
-            resources.ApplyResources(this.ResourceTier, "ResourceTier");
             this.ResourceTier.Name = "ResourceTier";
             this.ResourceTier.SelectedIndexChanged += new System.EventHandler(this.ResourceTier_SelectedIndexChanged);
             // 
@@ -63,10 +63,10 @@
             // 
             // DesiredProduct
             // 
+            resources.ApplyResources(this.DesiredProduct, "DesiredProduct");
             this.DesiredProduct.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.DesiredProduct.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.DesiredProduct.FormattingEnabled = true;
-            resources.ApplyResources(this.DesiredProduct, "DesiredProduct");
             this.DesiredProduct.Name = "DesiredProduct";
             this.DesiredProduct.SelectedIndexChanged += new System.EventHandler(this.DesiredProduct_SelectedIndexChanged);
             // 
@@ -83,13 +83,13 @@
             // 
             // CalculateUsing
             // 
+            resources.ApplyResources(this.CalculateUsing, "CalculateUsing");
             this.CalculateUsing.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.CalculateUsing.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CalculateUsing.FormattingEnabled = true;
             this.CalculateUsing.Items.AddRange(new object[] {
             resources.GetString("CalculateUsing.Items"),
             resources.GetString("CalculateUsing.Items1")});
-            resources.ApplyResources(this.CalculateUsing, "CalculateUsing");
             this.CalculateUsing.Name = "CalculateUsing";
             this.CalculateUsing.SelectedIndexChanged += new System.EventHandler(this.CalculateUsing_SelectedIndexChanged);
             // 
@@ -125,7 +125,7 @@
             // BuildResult
             // 
             this.BuildResult.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.BuildResult.BackgroundImage = Properties.Resources._23_64_2;
+            this.BuildResult.BackgroundImage = global::EVETool.Properties.Resources._23_64_2;
             resources.ApplyResources(this.BuildResult, "BuildResult");
             this.BuildResult.Name = "BuildResult";
             this.BuildResult.UseVisualStyleBackColor = false;
@@ -136,7 +136,7 @@
             resources.ApplyResources(this.SetSize, "SetSize");
             this.SetSize.Name = "SetSize";
             // 
-            // Resources
+            // ResourcePanel
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -154,7 +154,7 @@
             this.Controls.Add(this.TierLabel);
             this.Controls.Add(this.ResourceTier);
             this.Controls.Add(this.SetSize);
-            this.Name = "Resources";
+            this.Name = "ResourcePanel";
             this.ResumeLayout(false);
             this.PerformLayout();
 
