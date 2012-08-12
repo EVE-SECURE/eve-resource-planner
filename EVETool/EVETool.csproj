@@ -288,6 +288,7 @@
     <EmbeddedResource Include="Resources\Transcranial Microcontroller.png" />
     <EmbeddedResource Include="Resources\Supercomputers.png" />
     <EmbeddedResource Include="Resources\Ukomi Superconductors.png" />
+    <None Include="Resources\9_64_6.png" />
     <Content Include="ScienceIndustry.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

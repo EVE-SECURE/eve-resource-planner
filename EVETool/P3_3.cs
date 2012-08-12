@@ -65,7 +65,10 @@ namespace EVETool
             Resource3_P1_1_RMLabel.Text = RawMaterial[13];
             Resource3_P1_2Label.Text = RawMaterial[14];
             Resource3_P1_2_RMLabel.Text = RawMaterial[15];
-
+            Arrow1.Image = Properties.Resources._9_64_6;
+            Arrow2.Image = Properties.Resources._9_64_6;
+            Arrow3.Image = Properties.Resources._9_64_6;
+            Arrow4.Image = Properties.Resources._9_64_6;
 
             try
             {

@@ -370,4 +370,7 @@
   <data name="Ukomi_Superconductors" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ukomi Superconductors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_9_64_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9_64_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
