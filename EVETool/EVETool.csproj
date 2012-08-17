@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Jeremy\Desktop\ResourcePlanner\</PublishUrl>
+    <PublishUrl>C:\Users\Jeremy\Desktop\0.0.3.1\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,9 +22,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>EVEPITool</ProductName>
+    <PublisherName>w9jds</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>0.0.3.0</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>0.0.3.1</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -289,6 +291,14 @@
     <EmbeddedResource Include="Resources\Ukomi Superconductors.png" />
     <None Include="Resources\9_64_6.png" />
     <None Include="Resources\33_128_2.png" />
+    <None Include="Resources\Barren.png" />
+    <None Include="Resources\Gas.png" />
+    <None Include="Resources\Ice.png" />
+    <None Include="Resources\Lava.png" />
+    <None Include="Resources\Oceanic.png" />
+    <None Include="Resources\Plasma.png" />
+    <None Include="Resources\Storm.png" />
+    <None Include="Resources\Temperate.png" />
     <Content Include="ScienceIndustry.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

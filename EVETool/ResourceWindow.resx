@@ -145,34 +145,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ResourcePanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NewIndustryInter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="NewIndustryInter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="NewIndustryInter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="NewIndustryInter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
-  </data>
-  <data name="NewIndustryInter.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NewIndustryInter.Name" xml:space="preserve">
-    <value>NewIndustryInter</value>
-  </data>
-  <data name="&gt;&gt;NewIndustryInter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewIndustryInter.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NewIndustryInter.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>8</value>
   </data>
   <data name="SetSize.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 411</value>
@@ -193,7 +166,238 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SetSize.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Temperate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Temperate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 12</value>
+  </data>
+  <data name="Temperate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Temperate.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Temperate.Name" xml:space="preserve">
+    <value>Temperate</value>
+  </data>
+  <data name="&gt;&gt;Temperate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Temperate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Temperate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Storm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Storm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 12</value>
+  </data>
+  <data name="Storm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Storm.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Storm.Name" xml:space="preserve">
+    <value>Storm</value>
+  </data>
+  <data name="&gt;&gt;Storm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Storm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Storm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Plasma.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Plasma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 12</value>
+  </data>
+  <data name="Plasma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Plasma.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Plasma.Name" xml:space="preserve">
+    <value>Plasma</value>
+  </data>
+  <data name="&gt;&gt;Plasma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Plasma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Plasma.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="Oceanic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Oceanic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 12</value>
+  </data>
+  <data name="Oceanic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Oceanic.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Oceanic.Name" xml:space="preserve">
+    <value>Oceanic</value>
+  </data>
+  <data name="&gt;&gt;Oceanic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Oceanic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Oceanic.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Lava.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lava.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 12</value>
+  </data>
+  <data name="Lava.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Lava.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Lava.Name" xml:space="preserve">
+    <value>Lava</value>
+  </data>
+  <data name="&gt;&gt;Lava.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lava.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lava.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Ice.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Ice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Ice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 12</value>
+  </data>
+  <data name="Ice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Ice.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Ice.Name" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="&gt;&gt;Ice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ice.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Gas.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Gas.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Gas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 12</value>
+  </data>
+  <data name="Gas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Gas.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Gas.Name" xml:space="preserve">
+    <value>Gas</value>
+  </data>
+  <data name="&gt;&gt;Gas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gas.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Barren.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Barren.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Barren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 12</value>
+  </data>
+  <data name="Barren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="Barren.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Barren.Name" xml:space="preserve">
+    <value>Barren</value>
+  </data>
+  <data name="&gt;&gt;Barren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Barren.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Barren.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NewIndustryInter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="NewIndustryInter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="NewIndustryInter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewIndustryInter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="NewIndustryInter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="NewIndustryInter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NewIndustryInter.Name" xml:space="preserve">
+    <value>NewIndustryInter</value>
+  </data>
+  <data name="&gt;&gt;NewIndustryInter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewIndustryInter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NewIndustryInter.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
