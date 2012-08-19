@@ -14,14 +14,14 @@ namespace EVETool
 {
     public partial class ResourceWindow : Form
     {
-        private Boolean BarrenImg = true;
-        private Boolean GasImg = true;
-        private Boolean IceImg = true;
-        private Boolean LavaImg = true;
-        private Boolean OceanicImg = true;
-        private Boolean PlasmaImg = true;
-        private Boolean StormImg = true;
-        private Boolean TemperateImg = true;
+        private Boolean BarrenToggle = true;
+        private Boolean GasToggle = true;
+        private Boolean IceToggle = true;
+        private Boolean LavaToggle = true;
+        private Boolean OceanicToggle = true;
+        private Boolean PlasmaToggle = true;
+        private Boolean StormToggle = true;
+        private Boolean TemperateToggle = true;
         public ResourceWindow()
         {
             InitializeComponent();
@@ -31,117 +31,117 @@ namespace EVETool
         private void NewIndustryInter_Click(object sender, EventArgs e)
         {
             ResourcePanel.Controls.Clear();
-            ResourcePanel.Controls.Add(new ResourcePanel());
+            ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
         }
 
         private void Barren_Click(object sender, EventArgs e)
         {
-            if (BarrenImg == true)
+            if (BarrenToggle == true)
             {
-                BarrenImg = false;
+                BarrenToggle = false;
                 Barren.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (BarrenImg == false)
+            else if (BarrenToggle == false)
             {
-                BarrenImg = true;
+                BarrenToggle = true;
                 Barren.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Gas_Click(object sender, EventArgs e)
         {
-            if (GasImg == true)
+            if (GasToggle == true)
             {
-                GasImg = false;
+                GasToggle = false;
                 Gas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (GasImg == false)
+            else if (GasToggle == false)
             {
-                GasImg = true;
+                GasToggle = true;
                 Gas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Ice_Click(object sender, EventArgs e)
         {
-            if (IceImg == true)
+            if (IceToggle == true)
             {
-                IceImg = false;
+                IceToggle = false;
                 Ice.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (IceImg == false)
+            else if (IceToggle == false)
             {
-                IceImg = true;
+                IceToggle = true;
                 Ice.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Lava_Click(object sender, EventArgs e)
         {
-            if (LavaImg == true)
+            if (LavaToggle == true)
             {
-                LavaImg = false;
+                LavaToggle = false;
                 Lava.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (LavaImg == false)
+            else if (LavaToggle == false)
             {
-                LavaImg = true;
+                LavaToggle = true;
                 Lava.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Oceanic_Click(object sender, EventArgs e)
         {
-            if (OceanicImg == true)
+            if (OceanicToggle == true)
             {
-                OceanicImg = false;
+                OceanicToggle = false;
                 Oceanic.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (OceanicImg == false)
+            else if (OceanicToggle == false)
             {
-                OceanicImg = true;
+                OceanicToggle = true;
                 Oceanic.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Plasma_Click(object sender, EventArgs e)
         {
-            if (PlasmaImg == true)
+            if (PlasmaToggle == true)
             {
-                PlasmaImg = false;
+                PlasmaToggle = false;
                 Plasma.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (PlasmaImg == false)
+            else if (PlasmaToggle == false)
             {
-                PlasmaImg = true;
+                PlasmaToggle = true;
                 Plasma.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Storm_Click(object sender, EventArgs e)
         {
-            if (StormImg == true)
+            if (StormToggle == true)
             {
-                StormImg = false;
+                StormToggle = false;
                 Storm.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (StormImg == false)
+            else if (StormToggle == false)
             {
-                StormImg = true;
+                StormToggle = true;
                 Storm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
 
         private void Temperate_Click(object sender, EventArgs e)
         {
-            if (TemperateImg == true)
+            if (TemperateToggle == true)
             {
-                TemperateImg = false;
+                TemperateToggle = false;
                 Temperate.BorderStyle = System.Windows.Forms.BorderStyle.None;
             }
-            else if (TemperateImg == false)
+            else if (TemperateToggle == false)
             {
-                TemperateImg = true;
+                TemperateToggle = true;
                 Temperate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }

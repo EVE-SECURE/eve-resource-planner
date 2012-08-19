@@ -13,10 +13,30 @@ namespace EVETool {
 
     public partial class ResourcePanel : UserControl
     {
-        public ResourcePanel()
+        private List<Boolean> PlanetToggles = new List<Boolean>();
+        private List<String> Planets = new List<String>();
+        private List<String> StoredData = new List<String>();
+        public ResourcePanel(Boolean BarrenToggle, Boolean GasToggle, Boolean IceToggle, Boolean LavaToggle, Boolean OceanicToggle, Boolean PlasmaToggle, Boolean StormToggle, Boolean TemperateToggle)
         {
             InitializeComponent();
-            
+            // Store the toggles from the ResourceWindow and puts them in variable to be used here. 
+            this.PlanetToggles.Add(BarrenToggle);
+            this.Planets.Add("B");
+            this.PlanetToggles.Add(GasToggle);
+            this.Planets.Add("G");
+            this.PlanetToggles.Add(IceToggle);
+            this.Planets.Add("I");
+            this.PlanetToggles.Add(LavaToggle);
+            this.Planets.Add("L");
+            this.PlanetToggles.Add(OceanicToggle);
+            this.Planets.Add("O");
+            this.PlanetToggles.Add(PlasmaToggle);
+            this.Planets.Add("P");
+            this.PlanetToggles.Add(StormToggle);
+            this.Planets.Add("S");
+            this.PlanetToggles.Add(TemperateToggle);
+            this.Planets.Add("T");
+
             // Add these values to the First dropdown box.
             ResourceTier.Items.Add("Tier 1");
             ResourceTier.Items.Add("Tier 2");
@@ -32,6 +52,8 @@ namespace EVETool {
                 DesiredProduct.Items.Clear();
                 DesiredLabel.Visible = true;
                 DesiredProduct.Visible = true;
+                
+
                 // Depending on what value is chosen in the first combo-box pull from different queries in the ScienceIndustry Database.
                 if (ResourceTier.SelectedIndex == 0) // Tier 1
                 {
@@ -39,7 +61,28 @@ namespace EVETool {
                     SIDataSet.P1_QueryDataTable P1DataTable = new SIDataSet.P1_QueryDataTable();
                     P1TableAdapter.Fill(P1DataTable);
                     for (int i = 0; i < P1DataTable.Rows.Count; i++)
-                        DesiredProduct.Items.Add(P1DataTable.Rows[i]["P1"].ToString());
+                    {
+                        StoredData.Add(P1DataTable.Rows[i]["P1"].ToString());
+                        StoredData.Add(P1DataTable.Rows[i]["Planets"].ToString());
+                    }
+                    for (int i = 1; i < 30; i+=2)
+                    {
+                        for (int j = 0; j <= 7; j++)
+                        {
+                            if (PlanetToggles[j] == true)
+                            {
+                                String[] From = StoredData[i].Split(',');
+                                for (int k = 0; k < From.Length; k++)
+                                {
+                                    if (From[k] == Planets[j])
+                                    {
+                                        if (DesiredProduct.FindStringExact(StoredData[i-1]) == -1)
+                                            DesiredProduct.Items.Add(StoredData[i-1]);
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
                 if (ResourceTier.SelectedIndex == 1) // Tier 2
                 {
@@ -106,12 +149,21 @@ namespace EVETool {
                 ResultsPanel.Controls.Clear();
                 if (ResourceTier.SelectedIndex == 0) // Tier 1
                 {
+                    int row = 0;
                     SIDataSetTableAdapters.P1_QueryTableAdapter P1TableAdapter = new SIDataSetTableAdapters.P1_QueryTableAdapter();
                     SIDataSet.P1_QueryDataTable P1DataTable = new SIDataSet.P1_QueryDataTable();
                     P1TableAdapter.Fill(P1DataTable);
                     List<String> P1Resources = new List<String>();
+                    for (int i = 0; i < P1DataTable.Rows.Count; i++)
+                    {
+                        if (P1DataTable.Rows[i]["P1"].ToString().Equals(DesiredProduct.Text) == true)
+                        {
+                            row = i;
+                            break;
+                        }
+                    }
                     for (int i = 0; i < P1DataTable.Columns.Count; i++)
-                        P1Resources.Add(P1DataTable.Rows[DesiredProduct.SelectedIndex][i].ToString());
+                        P1Resources.Add(P1DataTable.Rows[row][i].ToString());
                     ResultsPanel.Controls.Add(new P1(P1Resources, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                 }
                 if (ResourceTier.SelectedIndex == 1) // Tier 2
