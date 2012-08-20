@@ -168,11 +168,14 @@
   <data name="&gt;&gt;SetSize.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="Temperate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Temperate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Temperate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>683, 12</value>
+    <value>675, 12</value>
   </data>
   <data name="Temperate.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -192,11 +195,14 @@
   <data name="&gt;&gt;Temperate.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="Storm.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Storm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Storm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>613, 12</value>
+    <value>605, 12</value>
   </data>
   <data name="Storm.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -216,11 +222,14 @@
   <data name="&gt;&gt;Storm.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="Plasma.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Plasma.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Plasma.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 12</value>
+    <value>535, 12</value>
   </data>
   <data name="Plasma.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -240,11 +249,14 @@
   <data name="&gt;&gt;Plasma.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="Oceanic.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Oceanic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Oceanic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 12</value>
+    <value>465, 12</value>
   </data>
   <data name="Oceanic.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -264,11 +276,14 @@
   <data name="&gt;&gt;Oceanic.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="Lava.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Lava.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Lava.Location" type="System.Drawing.Point, System.Drawing">
-    <value>403, 12</value>
+    <value>395, 12</value>
   </data>
   <data name="Lava.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -288,6 +303,9 @@
   <data name="&gt;&gt;Lava.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="Ice.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Ice.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -295,7 +313,7 @@
     <value>NoControl</value>
   </data>
   <data name="Ice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>333, 12</value>
+    <value>325, 12</value>
   </data>
   <data name="Ice.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -315,6 +333,9 @@
   <data name="&gt;&gt;Ice.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="Gas.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Gas.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -322,7 +343,7 @@
     <value>NoControl</value>
   </data>
   <data name="Gas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 12</value>
+    <value>255, 12</value>
   </data>
   <data name="Gas.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>
@@ -342,6 +363,9 @@
   <data name="&gt;&gt;Gas.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="Barren.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="Barren.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -349,7 +373,7 @@
     <value>NoControl</value>
   </data>
   <data name="Barren.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 12</value>
+    <value>185, 12</value>
   </data>
   <data name="Barren.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 64</value>

@@ -62,45 +62,45 @@
             // 
             // Temperate
             // 
+            resources.ApplyResources(this.Temperate, "Temperate");
             this.Temperate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Temperate.Image = global::EVETool.Properties.Resources.Temperate;
-            resources.ApplyResources(this.Temperate, "Temperate");
             this.Temperate.Name = "Temperate";
             this.Temperate.TabStop = false;
             this.Temperate.Click += new System.EventHandler(this.Temperate_Click);
             // 
             // Storm
             // 
+            resources.ApplyResources(this.Storm, "Storm");
             this.Storm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Storm.Image = global::EVETool.Properties.Resources.Storm;
-            resources.ApplyResources(this.Storm, "Storm");
             this.Storm.Name = "Storm";
             this.Storm.TabStop = false;
             this.Storm.Click += new System.EventHandler(this.Storm_Click);
             // 
             // Plasma
             // 
+            resources.ApplyResources(this.Plasma, "Plasma");
             this.Plasma.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Plasma.Image = global::EVETool.Properties.Resources.Plasma;
-            resources.ApplyResources(this.Plasma, "Plasma");
             this.Plasma.Name = "Plasma";
             this.Plasma.TabStop = false;
             this.Plasma.Click += new System.EventHandler(this.Plasma_Click);
             // 
             // Oceanic
             // 
+            resources.ApplyResources(this.Oceanic, "Oceanic");
             this.Oceanic.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Oceanic.Image = global::EVETool.Properties.Resources.Oceanic;
-            resources.ApplyResources(this.Oceanic, "Oceanic");
             this.Oceanic.Name = "Oceanic";
             this.Oceanic.TabStop = false;
             this.Oceanic.Click += new System.EventHandler(this.Oceanic_Click);
             // 
             // Lava
             // 
+            resources.ApplyResources(this.Lava, "Lava");
             this.Lava.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lava.Image = global::EVETool.Properties.Resources.Lava;
-            resources.ApplyResources(this.Lava, "Lava");
             this.Lava.Name = "Lava";
             this.Lava.TabStop = false;
             this.Lava.Click += new System.EventHandler(this.Lava_Click);

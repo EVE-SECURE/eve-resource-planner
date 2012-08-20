@@ -14,6 +14,7 @@ namespace EVETool {
     public partial class ResourcePanel : UserControl
     {
         private List<Boolean> PlanetToggles = new List<Boolean>();
+        private Boolean[] CheckAll = new Boolean[5];
         private List<String> Planets = new List<String>();
         private List<String> StoredData = new List<String>();
         public ResourcePanel(Boolean BarrenToggle, Boolean GasToggle, Boolean IceToggle, Boolean LavaToggle, Boolean OceanicToggle, Boolean PlasmaToggle, Boolean StormToggle, Boolean TemperateToggle)
@@ -57,6 +58,7 @@ namespace EVETool {
                 // Depending on what value is chosen in the first combo-box pull from different queries in the ScienceIndustry Database.
                 if (ResourceTier.SelectedIndex == 0) // Tier 1
                 {
+                    StoredData.Clear();
                     SIDataSetTableAdapters.P1_QueryTableAdapter P1TableAdapter = new SIDataSetTableAdapters.P1_QueryTableAdapter();
                     SIDataSet.P1_QueryDataTable P1DataTable = new SIDataSet.P1_QueryDataTable();
                     P1TableAdapter.Fill(P1DataTable);
@@ -65,32 +67,96 @@ namespace EVETool {
                         StoredData.Add(P1DataTable.Rows[i]["P1"].ToString());
                         StoredData.Add(P1DataTable.Rows[i]["Planets"].ToString());
                     }
-                    for (int i = 1; i < 30; i+=2)
+                    try
                     {
-                        for (int j = 0; j <= 7; j++)
+                        for (int i = 1; i < StoredData.Capacity; i += 2)
                         {
-                            if (PlanetToggles[j] == true)
+                            for (int j = 0; j <= 7; j++)
                             {
-                                String[] From = StoredData[i].Split(',');
-                                for (int k = 0; k < From.Length; k++)
+                                if (PlanetToggles[j] == true)
                                 {
-                                    if (From[k] == Planets[j])
+                                    String[] From = StoredData[i].Split(',');
+                                    for (int k = 0; k < From.Length; k++)
                                     {
-                                        if (DesiredProduct.FindStringExact(StoredData[i-1]) == -1)
-                                            DesiredProduct.Items.Add(StoredData[i-1]);
+                                        if (From[k] == Planets[j])
+                                        {
+                                            if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
+                                                DesiredProduct.Items.Add(StoredData[i - 1]);
+                                        }
                                     }
                                 }
                             }
                         }
                     }
+                    catch(ArgumentOutOfRangeException){ }
                 }
                 if (ResourceTier.SelectedIndex == 1) // Tier 2
                 {
+                    StoredData.Clear();
                     SIDataSetTableAdapters.P2_QueryTableAdapter P2TableAdapter = new SIDataSetTableAdapters.P2_QueryTableAdapter();
                     SIDataSet.P2_QueryDataTable P2DataTable = new SIDataSet.P2_QueryDataTable();
                     P2TableAdapter.Fill(P2DataTable);
                     for (int i = 0; i < P2DataTable.Rows.Count; i++)
-                        DesiredProduct.Items.Add(P2DataTable.Rows[i]["P2"].ToString());
+                    {
+                        //DesiredProduct.Items.Add(P2DataTable.Rows[i]["P2"].ToString());
+                        StoredData.Add(P2DataTable.Rows[i]["P2"].ToString());
+                        StoredData.Add(P2DataTable.Rows[i]["Planets"].ToString());
+                    }
+                    try
+                    {
+                        for (int i = 1; i < StoredData.Capacity; i += 2)
+                        {
+                            for (int j = 0; j <= 7; j++)
+                            {
+                                if (PlanetToggles[j] == true)
+                                {
+                                    String[] From = StoredData[i].Split(',');
+                                    for (int l = 0; l < From.Length; l++)
+                                    {
+                                        if (From[l].Contains('+') == true)
+                                        {
+                                            String[] DoublePlanets = From[l].Split('+');
+                                            for (int m = 0; m < DoublePlanets.Length; m++)
+                                            {
+                                                for (int n = 0; n < Planets.Count; n++)
+                                                {
+                                                    if (DoublePlanets[m].Equals(Planets[n]) == true)
+                                                    {
+                                                        if (PlanetToggles[n] == true)
+                                                        {
+                                                            CheckAll[m] = true;
+                                                        }
+                                                        else
+                                                        {
+                                                            CheckAll[m] = false;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            if (CheckAll.Contains(false) == false)
+                                            {
+                                                if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
+                                                    DesiredProduct.Items.Add(StoredData[i - 1]);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            for (int k = 0; k < From.Length; k++)
+                                            {
+                                                if (From[k] == Planets[j])
+                                                {
+                                                    if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
+                                                        DesiredProduct.Items.Add(StoredData[i - 1]);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    catch (ArgumentOutOfRangeException) { }
+
                 }
                 if (ResourceTier.SelectedIndex == 2) // Tier 3
                 {
@@ -145,11 +211,11 @@ namespace EVETool {
             try
             {
                 String Quantity;
+                int row = 0;
                 Quantity = Value.Text;
                 ResultsPanel.Controls.Clear();
                 if (ResourceTier.SelectedIndex == 0) // Tier 1
                 {
-                    int row = 0;
                     SIDataSetTableAdapters.P1_QueryTableAdapter P1TableAdapter = new SIDataSetTableAdapters.P1_QueryTableAdapter();
                     SIDataSet.P1_QueryDataTable P1DataTable = new SIDataSet.P1_QueryDataTable();
                     P1TableAdapter.Fill(P1DataTable);
@@ -172,8 +238,16 @@ namespace EVETool {
                     SIDataSet.P2_QueryDataTable P2DataTable = new SIDataSet.P2_QueryDataTable();
                     P2TableAdapter.Fill(P2DataTable);
                     List<String> P2Resources = new List<String>();
+                    for (int i = 0; i < P2DataTable.Rows.Count; i++)
+                    {
+                        if (P2DataTable.Rows[i]["P2"].ToString().Equals(DesiredProduct.Text) == true)
+                        {
+                            row = i;
+                            break;
+                        }
+                    }
                     for (int i = 0; i < P2DataTable.Columns.Count; i++)
-                        P2Resources.Add(P2DataTable.Rows[DesiredProduct.SelectedIndex][i].ToString());
+                        P2Resources.Add(P2DataTable.Rows[row][i].ToString());
                     ResultsPanel.Controls.Add(new P2(P2Resources, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                 }
                 if (ResourceTier.SelectedIndex == 2) // Tier 3
@@ -181,34 +255,20 @@ namespace EVETool {
                     // If resource is one of the exceptions use different query.
                     if (DesiredProduct.SelectedIndex == 0 || DesiredProduct.SelectedIndex == 3 || DesiredProduct.SelectedIndex == 5 || DesiredProduct.SelectedIndex == 7 || DesiredProduct.SelectedIndex == 13 || DesiredProduct.SelectedIndex == 16)
                     {
-                        int index = 0;
-                        switch (DesiredProduct.SelectedIndex)
-                        {
-                            case 0:
-                                index = 0;
-                                break;
-                            case 3:
-                                index = 1;
-                                break;
-                            case 5:
-                                index = 2;
-                                break;
-                            case 7:
-                                index = 3;
-                                break;
-                            case 13:
-                                index = 4;
-                                break;
-                            case 16:
-                                index = 5;
-                                break;
-                        }
                         SIDataSetTableAdapters.P3_Query_3_P2TableAdapter P3TableAdapter = new SIDataSetTableAdapters.P3_Query_3_P2TableAdapter();
                         SIDataSet._P3_Query_3_P2DataTable P3DataTable = new SIDataSet._P3_Query_3_P2DataTable();
                         P3TableAdapter.Fill(P3DataTable);
                         List<String> P3Resources = new List<String>();
+                        for (int i = 0; i < P3DataTable.Rows.Count; i++)
+                        {
+                            if (P3DataTable.Rows[i]["P3"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
                         for (int i = 0; i < P3DataTable.Columns.Count; i++)
-                            P3Resources.Add(P3DataTable.Rows[index][i].ToString());
+                            P3Resources.Add(P3DataTable.Rows[row][i].ToString());
                         ResultsPanel.Controls.Add(new P3_3(P3Resources, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                     }
                     // Otherwise use standard tier 3 query.
@@ -218,8 +278,16 @@ namespace EVETool {
                         SIDataSet.P3_QueryDataTable P3DataTable = new SIDataSet.P3_QueryDataTable();
                         P3TableAdapter.Fill(P3DataTable);
                         List<String> P3Resources = new List<String>();
+                        for (int i = 0; i < P3DataTable.Rows.Count; i++)
+                        {
+                            if (P3DataTable.Rows[i]["P3"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
                         for (int i = 0; i < P3DataTable.Columns.Count; i++)
-                            P3Resources.Add(P3DataTable.Rows[DesiredProduct.SelectedIndex][i].ToString());
+                            P3Resources.Add(P3DataTable.Rows[row][i].ToString());
                         ResultsPanel.Controls.Add(new P3_2(P3Resources, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                     }
                 }
