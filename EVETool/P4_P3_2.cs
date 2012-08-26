@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace EVETool
 {
-    public partial class P4_3 : UserControl
+    public partial class P4_P3_2 : UserControl
     {
-        public P4_3(String RawMaterial, String Planets, Int64 Amount)
+        public P4_P3_2()
         {
             InitializeComponent();
         }
+
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

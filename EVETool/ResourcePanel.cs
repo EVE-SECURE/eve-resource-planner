@@ -179,7 +179,7 @@ namespace EVETool {
                 if (ResourceTier.SelectedIndex == 2) // Tier 3
                 {
                     // If resource is one of the exceptions use different query.
-                    if (DesiredProduct.SelectedIndex == 0 || DesiredProduct.SelectedIndex == 3 || DesiredProduct.SelectedIndex == 5 || DesiredProduct.SelectedIndex == 7 || DesiredProduct.SelectedIndex == 13 || DesiredProduct.SelectedIndex == 16)
+                    if (DesiredProduct.Text == "Biotech Research Reports" || DesiredProduct.Text == "Cryoprotectant Solution" || DesiredProduct.Text == "Gel-Matrix Biopaste" || DesiredProduct.Text == "Hazmat Detection Systems" || DesiredProduct.Text == "Planetary Vehicles" || DesiredProduct.Text == "Supercomputers")
                     {
                         SIDataSetTableAdapters.P3_Query_3_P2TableAdapter P3TableAdapter = new SIDataSetTableAdapters.P3_Query_3_P2TableAdapter();
                         SIDataSet._P3_Query_3_P2DataTable P3DataTable = new SIDataSet._P3_Query_3_P2DataTable();
@@ -219,13 +219,17 @@ namespace EVETool {
                 }
                 if (ResourceTier.SelectedIndex == 3) // Tier 4
                 {
-                    if (DesiredProduct.SelectedIndex == 2 || DesiredProduct.SelectedIndex == 3 || DesiredProduct.SelectedIndex == 6)
+                    if (DesiredProduct.Text == "Broadcast Node" || DesiredProduct.Text == "Recursive Computing Module" || DesiredProduct.Text == "Self-Harmonizing Power Core")
                     {
-
+                        ResultsPanel.Controls.Add(new P4_P3_2());
+                    }
+                    else if (DesiredProduct.Text == "Integrity Response Drones" || DesiredProduct.Text == "Wetware Mainframe")
+                    {
+                        //ResultsPanel.Controls.Add(new P4_P3_3());
                     }
                     else
                     {
-
+                        //ResultsPanel.Controls.Add(new P4_P1());
                     }
                 }
             }
@@ -243,6 +247,7 @@ namespace EVETool {
             }
         }
         
+        // Function used to decide what resource to put in the DesiredProduct Combobox based on the planets that are selected
         public void PopulateDesiredProduct()
         {
             try

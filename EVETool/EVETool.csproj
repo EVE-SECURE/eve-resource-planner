@@ -110,11 +110,11 @@
     <Compile Include="P3_3.Designer.cs">
       <DependentUpon>P3_3.cs</DependentUpon>
     </Compile>
-    <Compile Include="P4_3.cs">
+    <Compile Include="P4_P3_2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="P4_3.Designer.cs">
-      <DependentUpon>P4_3.cs</DependentUpon>
+    <Compile Include="P4_P3_2.Designer.cs">
+      <DependentUpon>P4_P3_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Popup.cs">
       <SubType>Form</SubType>
@@ -160,8 +160,8 @@
     <EmbeddedResource Include="P3_3.resx">
       <DependentUpon>P3_3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="P4_3.resx">
-      <DependentUpon>P4_3.cs</DependentUpon>
+    <EmbeddedResource Include="P4_P3_2.resx">
+      <DependentUpon>P4_P3_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Popup.resx">
       <DependentUpon>Popup.cs</DependentUpon>
