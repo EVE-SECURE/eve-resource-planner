@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
 using System.Reflection;
+using System.IO;
 
 namespace EVETool
 {
-    public partial class P4_P3_2 : UserControl
+    public partial class P4_P1 : UserControl
     {
-        public P4_P3_2(List<String> P4_R1, List<String> P4_R2, List<String> P4_R3, int Index, Double Amount)
+        public P4_P1(List<String> P4_R1, List <String> P4_R2, List<String>P4_R3, int index, double Amount)
         {
             InitializeComponent();
             List<Image> P4_R1Imgs = new List<Image>();
@@ -23,8 +23,9 @@ namespace EVETool
             Stream ImgStream = null;
             FinalLabel.Text = P4_R1[0];
             R1Label.Text = P4_R1[1];
-            R2Label.Text = P4_R2[1];
-            R3Label.Text = P4_R3[1];
+            R2Label.Text = P4_R3[1];
+            R2_P0Label.Text = P4_R3[2];
+            R3Label.Text = P4_R2[1];
 
             for (int i = 0; i < P4_R1.Count; i++)
             {
@@ -35,7 +36,7 @@ namespace EVETool
                 }
                 catch (ArgumentException) { P4_R1Imgs.Add(null); }
             }
-            
+
             for (int i = 1; i < P4_R2.Count; i++)
             {
                 try
@@ -55,7 +56,7 @@ namespace EVETool
                 }
                 catch (ArgumentException) { P4_R3Imgs.Add(null); }
             }
-
+            
             FinalImg.Image = P4_R1Imgs[0];
             R1Img.Image = P4_R1Imgs[1];
             R1_P2_1Img.Image = P4_R1Imgs[2];
@@ -68,29 +69,19 @@ namespace EVETool
             R1_P2_2_P1_1_RMImg.Image = P4_R1Imgs[9];
             R1_P2_2_P1_2Img.Image = P4_R1Imgs[10];
             R1_P2_2_P1_2_RMImg.Image = P4_R1Imgs[11];
-            R2Img.Image = P4_R2Imgs[0];
-            R2_P2_1Img.Image = P4_R2Imgs[1];
-            R2_P2_1_P1_1Img.Image = P4_R2Imgs[2];
-            R2_P2_1_P1_1_RMImg.Image = P4_R2Imgs[3];
-            R2_P2_1_P1_2Img.Image = P4_R2Imgs[4];
-            R2_P2_1_P1_2_RMImg.Image = P4_R2Imgs[5];
-            R2_P2_2Img.Image = P4_R2Imgs[6];
-            R2_P2_2_P1_1Img.Image = P4_R2Imgs[7];
-            R2_P2_2_P1_1_RMImg.Image = P4_R2Imgs[8];
-            R2_P2_2_P1_2Img.Image = P4_R2Imgs[9];
-            R2_P2_2_P1_2_RMImg.Image = P4_R2Imgs[10];
-            R3Img.Image = P4_R3Imgs[0];
-            R3_P2_1Img.Image = P4_R3Imgs[1];
-            R3_P2_1_P1_1Img.Image = P4_R3Imgs[2];
-            R3_P2_1_P1_1_RMImg.Image = P4_R3Imgs[3];
-            R3_P2_1_P1_2Img.Image = P4_R3Imgs[4];
-            R3_P2_1_P1_2_RMImg.Image = P4_R3Imgs[5];
-            R3_P2_2Img.Image = P4_R3Imgs[6];
-            R3_P2_2_P1_1Img.Image = P4_R3Imgs[7];
-            R3_P2_2_P1_1_RMImg.Image = P4_R3Imgs[8];
-            R3_P2_2_P1_2Img.Image = P4_R3Imgs[9];
-            R3_P2_2_P1_2_RMImg.Image = P4_R3Imgs[10];
-
+            R2Img.Image = P4_R3Imgs[0];
+            R2_P0Img.Image = P4_R3Imgs[1];
+            R3Img.Image = P4_R2Imgs[0];
+            R3_P2_1Img.Image = P4_R2Imgs[1];
+            R3_P2_1_P1_1Img.Image = P4_R2Imgs[2];
+            R3_P2_1_P1_1_RMImg.Image = P4_R2Imgs[3];
+            R3_P2_1_P1_2Img.Image = P4_R2Imgs[4];
+            R3_P2_1_P1_2_RMImg.Image = P4_R2Imgs[5];
+            R3_P2_2Img.Image = P4_R2Imgs[6];
+            R3_P2_2_P1_1Img.Image = P4_R2Imgs[7];
+            R3_P2_2_P1_1_RMImg.Image = P4_R2Imgs[8];
+            R3_P2_2_P1_2Img.Image = P4_R2Imgs[9];
+            R3_P2_2_P1_2_RMImg.Image = P4_R2Imgs[10];
         }
     }
 }

@@ -131,6 +131,7 @@
             this.Barren.Name = "Barren";
             this.Barren.TabStop = false;
             this.Barren.Click += new System.EventHandler(this.Barren_Click);
+            this.Barren.MouseHover += new System.EventHandler(this.Barren_MouseHover);
             // 
             // NewIndustryInter
             // 

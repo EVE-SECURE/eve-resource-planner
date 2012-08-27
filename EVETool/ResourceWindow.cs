@@ -145,5 +145,10 @@ namespace EVETool
                 Temperate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             }
         }
+
+        private void Barren_MouseHover(object sender, EventArgs e)
+        {
+
+        }
     }
 }

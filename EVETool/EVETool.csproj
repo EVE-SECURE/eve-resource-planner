@@ -80,6 +80,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="P4_P1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="P4_P1.Designer.cs">
+      <DependentUpon>P4_P1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P4_P3_3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="P4_P3_3.Designer.cs">
+      <DependentUpon>P4_P3_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="ResourceWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +151,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SIDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ToolTip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolTip.Designer.cs">
+      <DependentUpon>ToolTip.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="P4_P1.resx">
+      <DependentUpon>P4_P1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ResourcePanel.en.resx">
       <DependentUpon>ResourcePanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +199,9 @@
     </Compile>
     <EmbeddedResource Include="ResourcePanel.resx">
       <DependentUpon>ResourcePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolTip.resx">
+      <DependentUpon>ToolTip.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="EVETool_TemporaryKey.pfx" />

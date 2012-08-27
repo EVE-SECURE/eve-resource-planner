@@ -193,7 +193,7 @@ namespace EVETool {
                                 break;
                             }
                         }
-                        for (int i = 0; i < P3DataTable.Columns.Count; i++)
+                        for (int i = 1; i < P3DataTable.Columns.Count; i++)
                             P3Resources.Add(P3DataTable.Rows[row][i].ToString());
                         ResultsPanel.Controls.Add(new P3_3(P3Resources, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                     }
@@ -212,16 +212,61 @@ namespace EVETool {
                                 break;
                             }
                         }
-                        for (int i = 0; i < P3DataTable.Columns.Count; i++)
+                        for (int i = 1; i < P3DataTable.Columns.Count; i++)
                             P3Resources.Add(P3DataTable.Rows[row][i].ToString());
                         ResultsPanel.Controls.Add(new P3_2(P3Resources, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                     }
                 }
                 if (ResourceTier.SelectedIndex == 3) // Tier 4
                 {
-                    if (DesiredProduct.Text == "Broadcast Node" || DesiredProduct.Text == "Recursive Computing Module" || DesiredProduct.Text == "Self-Harmonizing Power Core")
+                    if (DesiredProduct.Text == "Broadcast Node" || DesiredProduct.Text == "Recursive Computing Module" || DesiredProduct.Text == "Self Harmonizing Power Core")
                     {
-                        ResultsPanel.Controls.Add(new P4_P3_2());
+                        SIDataSetTableAdapters.P4_Query_R1__2_P2_TableAdapter P4_R1TableAdapter = new SIDataSetTableAdapters.P4_Query_R1__2_P2_TableAdapter();
+                        SIDataSet._P4_Query_R1__2_P2_DataTable P4_R1DataTable = new SIDataSet._P4_Query_R1__2_P2_DataTable();
+                        P4_R1TableAdapter.Fill(P4_R1DataTable);
+                        List<String> P4_R1 = new List<String>();
+                        for (int i = 0; i < P4_R1DataTable.Rows.Count; i++)
+                        {
+                            if (P4_R1DataTable.Rows[i]["P4"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
+                        for (int i = 0; i < P4_R1DataTable.Columns.Count; i++)
+                            P4_R1.Add(P4_R1DataTable.Rows[row][i].ToString());
+
+                        SIDataSetTableAdapters.P4_Query_R2__2_P2_TableAdapter P4_R2TableAdapter = new SIDataSetTableAdapters.P4_Query_R2__2_P2_TableAdapter();
+                        SIDataSet._P4_Query_R2__2_P2_DataTable P4_R2DataTable = new SIDataSet._P4_Query_R2__2_P2_DataTable();
+                        P4_R2TableAdapter.Fill(P4_R2DataTable);
+                        List<String> P4_R2 = new List<String>();
+                        for (int i = 0; i < P4_R2DataTable.Rows.Count; i++)
+                        {
+                            if (P4_R2DataTable.Rows[i]["P4"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
+                        for (int i = 0; i < P4_R2DataTable.Columns.Count; i++)
+                            P4_R2.Add(P4_R2DataTable.Rows[row][i].ToString());
+
+                        SIDataSetTableAdapters.P4_Query_R3__2_P2_TableAdapter P4_R3TableAdapter = new SIDataSetTableAdapters.P4_Query_R3__2_P2_TableAdapter();
+                        SIDataSet._P4_Query_R3__2_P2_DataTable P4_R3DataTable = new SIDataSet._P4_Query_R3__2_P2_DataTable();
+                        P4_R3TableAdapter.Fill(P4_R3DataTable);
+                        List<String> P4_R3 = new List<String>();
+                        for (int i = 0; i < P4_R3DataTable.Rows.Count; i++)
+                        {
+                            if (P4_R3DataTable.Rows[i]["P4"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
+                        for (int i = 0; i < P4_R3DataTable.Columns.Count; i++)
+                            P4_R3.Add(P4_R3DataTable.Rows[row][i].ToString());
+
+                        ResultsPanel.Controls.Add(new P4_P3_2(P4_R1, P4_R2, P4_R3, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                     }
                     else if (DesiredProduct.Text == "Integrity Response Drones" || DesiredProduct.Text == "Wetware Mainframe")
                     {
@@ -229,7 +274,52 @@ namespace EVETool {
                     }
                     else
                     {
-                        //ResultsPanel.Controls.Add(new P4_P1());
+                        SIDataSetTableAdapters.P4_Query_R1__2_P2_TableAdapter P4_R1TableAdapter = new SIDataSetTableAdapters.P4_Query_R1__2_P2_TableAdapter();
+                        SIDataSet._P4_Query_R1__2_P2_DataTable P4_R1DataTable = new SIDataSet._P4_Query_R1__2_P2_DataTable();
+                        P4_R1TableAdapter.Fill(P4_R1DataTable);
+                        List<String> P4_R1 = new List<String>();
+                        for (int i = 0; i < P4_R1DataTable.Rows.Count; i++)
+                        {
+                            if (P4_R1DataTable.Rows[i]["P4"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
+                        for (int i = 0; i < P4_R1DataTable.Columns.Count; i++)
+                            P4_R1.Add(P4_R1DataTable.Rows[row][i].ToString());
+
+                        SIDataSetTableAdapters.P4_Query_R2__2_P2_TableAdapter P4_R2TableAdapter = new SIDataSetTableAdapters.P4_Query_R2__2_P2_TableAdapter();
+                        SIDataSet._P4_Query_R2__2_P2_DataTable P4_R2DataTable = new SIDataSet._P4_Query_R2__2_P2_DataTable();
+                        P4_R2TableAdapter.Fill(P4_R2DataTable);
+                        List<String> P4_R2 = new List<String>();
+                        for (int i = 0; i < P4_R2DataTable.Rows.Count; i++)
+                        {
+                            if (P4_R2DataTable.Rows[i]["P4"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
+                        for (int i = 0; i < P4_R2DataTable.Columns.Count; i++)
+                            P4_R2.Add(P4_R2DataTable.Rows[row][i].ToString());
+
+                        SIDataSetTableAdapters.P4_Query_R3__P1_TableAdapter P4_R3TableAdapter = new SIDataSetTableAdapters.P4_Query_R3__P1_TableAdapter();
+                        SIDataSet._P4_Query_R3__P1_DataTable P4_R3DataTable = new SIDataSet._P4_Query_R3__P1_DataTable();
+                        P4_R3TableAdapter.Fill(P4_R3DataTable);
+                        List<String> P4_R3 = new List<String>();
+                        for (int i = 0; i < P4_R3DataTable.Rows.Count; i++)
+                        {
+                            if (P4_R3DataTable.Rows[i]["P4"].ToString().Equals(DesiredProduct.Text) == true)
+                            {
+                                row = i;
+                                break;
+                            }
+                        }
+                        for (int i = 0; i < P4_R3DataTable.Columns.Count; i++)
+                            P4_R3.Add(P4_R3DataTable.Rows[row][i].ToString());
+
+                        ResultsPanel.Controls.Add(new P4_P1(P4_R1, P4_R2, P4_R3, CalculateUsing.SelectedIndex, Convert.ToDouble(Quantity)));
                     }
                 }
             }
