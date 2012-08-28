@@ -52,7 +52,7 @@
             this.Message.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Message.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Message.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Message.Location = new System.Drawing.Point(12, 31);
+            this.Message.Location = new System.Drawing.Point(12, 30);
             this.Message.Name = "Message";
             this.Message.ReadOnly = true;
             this.Message.Size = new System.Drawing.Size(759, 16);
@@ -63,6 +63,7 @@
             // Popup
             // 
             this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(783, 131);
             this.Controls.Add(this.Message);

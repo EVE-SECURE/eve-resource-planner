@@ -270,7 +270,7 @@ namespace EVETool {
                     }
                     else if (DesiredProduct.Text == "Integrity Response Drones" || DesiredProduct.Text == "Wetware Mainframe")
                     {
-                        //ResultsPanel.Controls.Add(new P4_P3_3());
+                        ResultsPanel.Controls.Add(new P4_P3_3());
                     }
                     else
                     {

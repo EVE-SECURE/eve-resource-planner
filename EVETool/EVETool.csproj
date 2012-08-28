@@ -160,6 +160,9 @@
     <EmbeddedResource Include="P4_P1.resx">
       <DependentUpon>P4_P1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="P4_P3_3.resx">
+      <DependentUpon>P4_P3_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ResourcePanel.en.resx">
       <DependentUpon>ResourcePanel.cs</DependentUpon>
     </EmbeddedResource>

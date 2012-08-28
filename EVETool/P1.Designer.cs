@@ -33,14 +33,14 @@
             this.Result = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.P1Pic = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ResultAmount = new System.Windows.Forms.TextBox();
-            this.P1Pic = new System.Windows.Forms.PictureBox();
             this.P0Pic = new System.Windows.Forms.PictureBox();
+            this.ResultAmount = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P0Pic)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,6 +102,14 @@
             this.panel3.Size = new System.Drawing.Size(315, 70);
             this.panel3.TabIndex = 42;
             // 
+            // P1Pic
+            // 
+            this.P1Pic.Location = new System.Drawing.Point(44, 3);
+            this.P1Pic.Name = "P1Pic";
+            this.P1Pic.Size = new System.Drawing.Size(64, 64);
+            this.P1Pic.TabIndex = 44;
+            this.P1Pic.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -124,6 +132,14 @@
             this.panel1.Size = new System.Drawing.Size(315, 70);
             this.panel1.TabIndex = 43;
             // 
+            // P0Pic
+            // 
+            this.P0Pic.Location = new System.Drawing.Point(44, 3);
+            this.P0Pic.Name = "P0Pic";
+            this.P0Pic.Size = new System.Drawing.Size(64, 64);
+            this.P0Pic.TabIndex = 45;
+            this.P0Pic.TabStop = false;
+            // 
             // ResultAmount
             // 
             this.ResultAmount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -134,26 +150,11 @@
             this.ResultAmount.TabIndex = 31;
             this.ResultAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // P1Pic
-            // 
-            this.P1Pic.Location = new System.Drawing.Point(44, 3);
-            this.P1Pic.Name = "P1Pic";
-            this.P1Pic.Size = new System.Drawing.Size(64, 64);
-            this.P1Pic.TabIndex = 44;
-            this.P1Pic.TabStop = false;
-            // 
-            // P0Pic
-            // 
-            this.P0Pic.Location = new System.Drawing.Point(44, 3);
-            this.P0Pic.Name = "P0Pic";
-            this.P0Pic.Size = new System.Drawing.Size(64, 64);
-            this.P0Pic.TabIndex = 45;
-            this.P0Pic.TabStop = false;
-            // 
             // P1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Controls.Add(this.ResultAmount);
             this.Controls.Add(this.Result);
@@ -165,9 +166,9 @@
             this.Size = new System.Drawing.Size(850, 233);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.P1Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P0Pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
