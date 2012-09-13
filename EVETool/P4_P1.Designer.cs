@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.R3_P2_2_P1_1_RMImg = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.R3_P2_2_P1_2_RMImg = new System.Windows.Forms.PictureBox();
@@ -39,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.R2Img = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.R2Label = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.R1_P2_2_P1_2_RMImg = new System.Windows.Forms.PictureBox();
             this.R1_P2_2_P1_1_RMImg = new System.Windows.Forms.PictureBox();
@@ -76,6 +78,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.R2_P0Label = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.R1_P2_2_P1_2Img = new System.Windows.Forms.PictureBox();
@@ -89,8 +92,7 @@
             this.R3Label = new System.Windows.Forms.TextBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
-            this.R2Label = new System.Windows.Forms.TextBox();
-            this.R2_P0Label = new System.Windows.Forms.TextBox();
+            this.ResourceName = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.R3_P2_2_P1_1_RMImg)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.R3_P2_2_P1_2_RMImg)).BeginInit();
@@ -136,6 +138,7 @@
             this.R3_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_1_RMImg.TabIndex = 185;
             this.R3_P2_2_P1_1_RMImg.TabStop = false;
+            this.R3_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_2_P1_1_RMImg_MouseHover);
             // 
             // panel7
             // 
@@ -158,6 +161,7 @@
             this.R3_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_2_RMImg.TabIndex = 186;
             this.R3_P2_2_P1_2_RMImg.TabStop = false;
+            this.R3_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R3_P0Amount
             // 
@@ -188,6 +192,7 @@
             this.R3_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R3_P2_1_P1_2_RMImg.TabStop = false;
+            this.R3_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R3_P2_1_P1_1_RMImg
             // 
@@ -196,6 +201,7 @@
             this.R3_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R3_P2_1_P1_1_RMImg.TabStop = false;
+            this.R3_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_1_P1_1_RMImg_MouseHover);
             // 
             // R2Amount
             // 
@@ -239,6 +245,19 @@
             this.panel3.Size = new System.Drawing.Size(369, 82);
             this.panel3.TabIndex = 211;
             // 
+            // R2Label
+            // 
+            this.R2Label.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.R2Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R2Label.ForeColor = System.Drawing.SystemColors.Window;
+            this.R2Label.Location = new System.Drawing.Point(105, 14);
+            this.R2Label.Name = "R2Label";
+            this.R2Label.ReadOnly = true;
+            this.R2Label.Size = new System.Drawing.Size(155, 23);
+            this.R2Label.TabIndex = 217;
+            this.R2Label.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.R2Label.WordWrap = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -258,6 +277,7 @@
             this.R1_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_2_RMImg.TabIndex = 186;
             this.R1_P2_2_P1_2_RMImg.TabStop = false;
+            this.R1_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R1_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R1_P2_2_P1_1_RMImg
             // 
@@ -266,6 +286,7 @@
             this.R1_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_1_RMImg.TabIndex = 185;
             this.R1_P2_2_P1_1_RMImg.TabStop = false;
+            this.R1_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R1_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R1_P0Amount
             // 
@@ -296,6 +317,7 @@
             this.R1_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R1_P2_1_P1_2_RMImg.TabStop = false;
+            this.R1_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R1_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R2_P0Img
             // 
@@ -312,6 +334,7 @@
             this.R3_P2_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2Img.TabIndex = 185;
             this.R3_P2_2Img.TabStop = false;
+            this.R3_P2_2Img.MouseHover += new System.EventHandler(this.R3_P2_2Img_MouseHover);
             // 
             // R3_P2Amount
             // 
@@ -330,6 +353,7 @@
             this.R3_P2_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1Img.TabIndex = 184;
             this.R3_P2_1Img.TabStop = false;
+            this.R3_P2_1Img.MouseHover += new System.EventHandler(this.R3_P2_1Img_MouseHover);
             // 
             // panel10
             // 
@@ -362,6 +386,7 @@
             this.R3_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_2Img.TabIndex = 186;
             this.R3_P2_2_P1_2Img.TabStop = false;
+            this.R3_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_2_P1_2Img_MouseHover);
             // 
             // R3_P2_2_P1_1Img
             // 
@@ -370,6 +395,7 @@
             this.R3_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_1Img.TabIndex = 185;
             this.R3_P2_2_P1_1Img.TabStop = false;
+            this.R3_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_2_P1_1Img_MouseHover);
             // 
             // R3_P1Amount
             // 
@@ -400,6 +426,7 @@
             this.R3_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_2Img.TabIndex = 184;
             this.R3_P2_1_P1_2Img.TabStop = false;
+            this.R3_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_1_P1_2Img_MouseHover);
             // 
             // R3_P2_1_P1_1Img
             // 
@@ -408,6 +435,7 @@
             this.R3_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_1Img.TabIndex = 183;
             this.R3_P2_1_P1_1Img.TabStop = false;
+            this.R3_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_1_P1_1Img_MouseHover);
             // 
             // R2_P0Amount
             // 
@@ -440,6 +468,7 @@
             this.R1_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R1_P2_1_P1_1_RMImg.TabStop = false;
+            this.R1_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R1_P2_1_P1_1_RMImg_MouseHover);
             // 
             // R1Img
             // 
@@ -503,6 +532,7 @@
             this.R1_P2_2Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2Img.TabIndex = 185;
             this.R1_P2_2Img.TabStop = false;
+            this.R1_P2_2Img.MouseHover += new System.EventHandler(this.R1_P2_2Img_MouseHover);
             // 
             // R1_P2Amount
             // 
@@ -533,6 +563,7 @@
             this.R1_P2_1Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1Img.TabIndex = 184;
             this.R1_P2_1Img.TabStop = false;
+            this.R1_P2_1Img.MouseHover += new System.EventHandler(this.R1_P2_1Img_MouseHover);
             // 
             // panel5
             // 
@@ -613,6 +644,19 @@
             this.panel1.Size = new System.Drawing.Size(369, 84);
             this.panel1.TabIndex = 212;
             // 
+            // R2_P0Label
+            // 
+            this.R2_P0Label.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.R2_P0Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R2_P0Label.ForeColor = System.Drawing.SystemColors.Window;
+            this.R2_P0Label.Location = new System.Drawing.Point(105, 16);
+            this.R2_P0Label.Name = "R2_P0Label";
+            this.R2_P0Label.ReadOnly = true;
+            this.R2_P0Label.Size = new System.Drawing.Size(155, 23);
+            this.R2_P0Label.TabIndex = 203;
+            this.R2_P0Label.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.R2_P0Label.WordWrap = false;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -648,6 +692,7 @@
             this.R1_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_2Img.TabIndex = 186;
             this.R1_P2_2_P1_2Img.TabStop = false;
+            this.R1_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R1_P2_2_P1_2Img_MouseHover);
             // 
             // R1_P2_2_P1_1Img
             // 
@@ -656,6 +701,7 @@
             this.R1_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_1Img.TabIndex = 185;
             this.R1_P2_2_P1_1Img.TabStop = false;
+            this.R1_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R1_P2_2_P1_1Img_MouseHover);
             // 
             // R1_P1Amount
             // 
@@ -686,6 +732,7 @@
             this.R1_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_2Img.TabIndex = 184;
             this.R1_P2_1_P1_2Img.TabStop = false;
+            this.R1_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R1_P2_1_P1_2Img_MouseHover);
             // 
             // R1_P2_1_P1_1Img
             // 
@@ -694,6 +741,7 @@
             this.R1_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_1Img.TabIndex = 183;
             this.R1_P2_1_P1_1Img.TabStop = false;
+            this.R1_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R1_P2_1_P1_1Img_MouseHover);
             // 
             // R3Amount
             // 
@@ -749,32 +797,6 @@
             this.label15.TabIndex = 42;
             this.label15.Text = "P3";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // R2Label
-            // 
-            this.R2Label.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.R2Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R2Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.R2Label.Location = new System.Drawing.Point(105, 14);
-            this.R2Label.Name = "R2Label";
-            this.R2Label.ReadOnly = true;
-            this.R2Label.Size = new System.Drawing.Size(155, 23);
-            this.R2Label.TabIndex = 217;
-            this.R2Label.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.R2Label.WordWrap = false;
-            // 
-            // R2_P0Label
-            // 
-            this.R2_P0Label.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.R2_P0Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R2_P0Label.ForeColor = System.Drawing.SystemColors.Window;
-            this.R2_P0Label.Location = new System.Drawing.Point(105, 16);
-            this.R2_P0Label.Name = "R2_P0Label";
-            this.R2_P0Label.ReadOnly = true;
-            this.R2_P0Label.Size = new System.Drawing.Size(155, 23);
-            this.R2_P0Label.TabIndex = 203;
-            this.R2_P0Label.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.R2_P0Label.WordWrap = false;
             // 
             // P4_P1
             // 
@@ -910,5 +932,6 @@
         private System.Windows.Forms.TextBox R3Label;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ToolTip ResourceName;
     }
 }

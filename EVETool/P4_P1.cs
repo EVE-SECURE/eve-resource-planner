@@ -14,13 +14,23 @@ namespace EVETool
 {
     public partial class P4_P1 : UserControl
     {
+        String[] P4_Res1;
+        String[] P4_Res2;
         public P4_P1(List<String> P4_R1, List <String> P4_R2, List<String>P4_R3, int index, double Amount)
         {
             InitializeComponent();
+            P4_Res1 = new String[P4_R1.Count];
+            P4_Res2 = new String[P4_R2.Count];
             List<Image> P4_R1Imgs = new List<Image>();
             List<Image> P4_R2Imgs = new List<Image>();
             List<Image> P4_R3Imgs = new List<Image>();
             Stream ImgStream = null;
+            for (int i = 0; i < P4_R1.Count; i++)
+                P4_Res1[i] = P4_R1[i];
+            for (int i = 0; i < P4_R2.Count; i++)
+                P4_Res2[i] = P4_R2[i];
+
+
             FinalLabel.Text = P4_R1[0];
             R1Label.Text = P4_R1[1];
             R2Label.Text = P4_R3[1];
@@ -82,6 +92,126 @@ namespace EVETool
             R3_P2_2_P1_1_RMImg.Image = P4_R2Imgs[8];
             R3_P2_2_P1_2Img.Image = P4_R2Imgs[9];
             R3_P2_2_P1_2_RMImg.Image = P4_R2Imgs[10];
+        }
+
+        private void R1_P2_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[2], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[3], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_1_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[4], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[5], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_2_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[6], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[7], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_2_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[8], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_2_P1_1_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[9], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_2_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[10], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_2_P1_2_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[11], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[2], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_1_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[3], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_1_P1_1_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[4], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_1_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[5], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_1_P1_2_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[6], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[7], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_2_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[8], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_2_P1_1_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[9], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_2_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[10], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_2_P1_2_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[11], this, B.X + 10, B.Y + 15, 3000);
         }
     }
 }

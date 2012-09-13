@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel17 = new System.Windows.Forms.Panel();
             this.FinalImg = new System.Windows.Forms.PictureBox();
             this.FinalAmount = new System.Windows.Forms.TextBox();
@@ -105,6 +106,7 @@
             this.R3_P2Amount = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.R3_P2_1Img = new System.Windows.Forms.PictureBox();
+            this.ResourceName = new System.Windows.Forms.ToolTip(this.components);
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FinalImg)).BeginInit();
             this.panel5.SuspendLayout();
@@ -228,6 +230,7 @@
             this.R1_P2_2Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2Img.TabIndex = 185;
             this.R1_P2_2Img.TabStop = false;
+            this.R1_P2_2Img.MouseHover += new System.EventHandler(this.R1_P2_2Img_MouseHover);
             // 
             // R1_P2Amount
             // 
@@ -258,6 +261,7 @@
             this.R1_P2_1Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1Img.TabIndex = 184;
             this.R1_P2_1Img.TabStop = false;
+            this.R1_P2_1Img.MouseHover += new System.EventHandler(this.R1_P2_1Img_MouseHover);
             // 
             // panel23
             // 
@@ -445,6 +449,7 @@
             this.R1_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_2Img.TabIndex = 186;
             this.R1_P2_2_P1_2Img.TabStop = false;
+            this.R1_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R1_P2_2_P1_2Img_MouseHover);
             // 
             // R1_P2_2_P1_1Img
             // 
@@ -453,6 +458,7 @@
             this.R1_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_1Img.TabIndex = 185;
             this.R1_P2_2_P1_1Img.TabStop = false;
+            this.R1_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R1_P2_2_P1_1Img_MouseHover);
             // 
             // R1_P1Amount
             // 
@@ -483,6 +489,7 @@
             this.R1_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_2Img.TabIndex = 184;
             this.R1_P2_1_P1_2Img.TabStop = false;
+            this.R1_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R1_P2_1_P1_2Img_MouseHover);
             // 
             // R1_P2_1_P1_1Img
             // 
@@ -491,6 +498,7 @@
             this.R1_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_1Img.TabIndex = 183;
             this.R1_P2_1_P1_1Img.TabStop = false;
+            this.R1_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R1_P2_1_P1_1Img_MouseHover);
             // 
             // panel4
             // 
@@ -513,6 +521,7 @@
             this.R1_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_2_RMImg.TabIndex = 186;
             this.R1_P2_2_P1_2_RMImg.TabStop = false;
+            this.R1_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R1_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R1_P2_2_P1_1_RMImg
             // 
@@ -521,6 +530,7 @@
             this.R1_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_1_RMImg.TabIndex = 185;
             this.R1_P2_2_P1_1_RMImg.TabStop = false;
+            this.R1_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R1_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R1_P0Amount
             // 
@@ -551,6 +561,7 @@
             this.R1_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R1_P2_1_P1_2_RMImg.TabStop = false;
+            this.R1_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R1_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R1_P2_1_P1_1_RMImg
             // 
@@ -559,6 +570,7 @@
             this.R1_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R1_P2_1_P1_1_RMImg.TabStop = false;
+            this.R1_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R1_P2_1_P1_1_RMImg_MouseHover);
             // 
             // panel1
             // 
@@ -581,6 +593,7 @@
             this.R2_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_2_RMImg.TabIndex = 186;
             this.R2_P2_2_P1_2_RMImg.TabStop = false;
+            this.R2_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R2_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R2_P2_2_P1_1_RMImg
             // 
@@ -589,6 +602,7 @@
             this.R2_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_1_RMImg.TabIndex = 185;
             this.R2_P2_2_P1_1_RMImg.TabStop = false;
+            this.R2_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R2_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R2_P0Amount
             // 
@@ -619,6 +633,7 @@
             this.R2_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R2_P2_1_P1_2_RMImg.TabStop = false;
+            this.R2_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R2_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R2_P2_1_P1_1_RMImg
             // 
@@ -627,6 +642,7 @@
             this.R2_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R2_P2_1_P1_1_RMImg.TabStop = false;
+            this.R2_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R2_P2_1_P1_1_RMImg_MouseHover);
             // 
             // panel3
             // 
@@ -649,6 +665,7 @@
             this.R2_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_2Img.TabIndex = 186;
             this.R2_P2_2_P1_2Img.TabStop = false;
+            this.R2_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R2_P2_2_P1_2Img_MouseHover);
             // 
             // R2_P2_2_P1_1Img
             // 
@@ -657,6 +674,7 @@
             this.R2_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_1Img.TabIndex = 185;
             this.R2_P2_2_P1_1Img.TabStop = false;
+            this.R2_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R2_P2_2_P1_1Img_MouseHover);
             // 
             // R2_P1Amount
             // 
@@ -687,6 +705,7 @@
             this.R2_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_2Img.TabIndex = 184;
             this.R2_P2_1_P1_2Img.TabStop = false;
+            this.R2_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R2_P2_1_P1_2Img_MouseHover);
             // 
             // R2_P2_1_P1_1Img
             // 
@@ -695,6 +714,7 @@
             this.R2_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_1Img.TabIndex = 183;
             this.R2_P2_1_P1_1Img.TabStop = false;
+            this.R2_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R2_P2_1_P1_1Img_MouseHover);
             // 
             // panel7
             // 
@@ -717,6 +737,7 @@
             this.R3_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_2_RMImg.TabIndex = 186;
             this.R3_P2_2_P1_2_RMImg.TabStop = false;
+            this.R3_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R3_P2_2_P1_1_RMImg
             // 
@@ -725,6 +746,7 @@
             this.R3_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_1_RMImg.TabIndex = 185;
             this.R3_P2_2_P1_1_RMImg.TabStop = false;
+            this.R3_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R3_P0Amount
             // 
@@ -755,6 +777,7 @@
             this.R3_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R3_P2_1_P1_2_RMImg.TabStop = false;
+            this.R3_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R3_P2_1_P1_1_RMImg
             // 
@@ -763,6 +786,7 @@
             this.R3_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R3_P2_1_P1_1_RMImg.TabStop = false;
+            this.R3_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_1_P1_1_RMImg_MouseHover);
             // 
             // panel9
             // 
@@ -785,6 +809,7 @@
             this.R3_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_2Img.TabIndex = 186;
             this.R3_P2_2_P1_2Img.TabStop = false;
+            this.R3_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_2_P1_2Img_MouseHover);
             // 
             // R3_P2_2_P1_1Img
             // 
@@ -793,6 +818,7 @@
             this.R3_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_1Img.TabIndex = 185;
             this.R3_P2_2_P1_1Img.TabStop = false;
+            this.R3_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_2_P1_1Img_MouseHover);
             // 
             // R3_P1Amount
             // 
@@ -823,6 +849,7 @@
             this.R3_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_2Img.TabIndex = 184;
             this.R3_P2_1_P1_2Img.TabStop = false;
+            this.R3_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_1_P1_2Img_MouseHover);
             // 
             // R3_P2_1_P1_1Img
             // 
@@ -831,6 +858,7 @@
             this.R3_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_1Img.TabIndex = 183;
             this.R3_P2_1_P1_1Img.TabStop = false;
+            this.R3_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_1_P1_1Img_MouseHover);
             // 
             // panel6
             // 
@@ -851,6 +879,7 @@
             this.R2_P2_2Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2Img.TabIndex = 185;
             this.R2_P2_2Img.TabStop = false;
+            this.R2_P2_2Img.MouseHover += new System.EventHandler(this.R2_P2_2Img_MouseHover);
             // 
             // R2_P2Amount
             // 
@@ -881,6 +910,7 @@
             this.R2_P2_1Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1Img.TabIndex = 184;
             this.R2_P2_1Img.TabStop = false;
+            this.R2_P2_1Img.MouseHover += new System.EventHandler(this.R2_P2_1Img_MouseHover);
             // 
             // panel10
             // 
@@ -901,6 +931,7 @@
             this.R3_P2_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2Img.TabIndex = 185;
             this.R3_P2_2Img.TabStop = false;
+            this.R3_P2_2Img.MouseHover += new System.EventHandler(this.R3_P2_2Img_MouseHover);
             // 
             // R3_P2Amount
             // 
@@ -931,6 +962,7 @@
             this.R3_P2_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1Img.TabIndex = 184;
             this.R3_P2_1Img.TabStop = false;
+            this.R3_P2_1Img.MouseHover += new System.EventHandler(this.R3_P2_1Img_MouseHover);
             // 
             // P4_P3_2
             // 
@@ -1095,6 +1127,7 @@
         private System.Windows.Forms.TextBox R3_P2Amount;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox R3_P2_1Img;
+        private System.Windows.Forms.ToolTip ResourceName;
 
     }
 }
