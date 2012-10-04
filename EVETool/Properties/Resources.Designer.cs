@@ -603,9 +603,9 @@ namespace EVETool.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Organic_Mortar_Applications {
+        internal static System.Drawing.Bitmap Organic_Mortar_Applicators {
             get {
-                object obj = ResourceManager.GetObject("Organic_Mortar_Applications", resourceCulture);
+                object obj = ResourceManager.GetObject("Organic_Mortar_Applicators", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

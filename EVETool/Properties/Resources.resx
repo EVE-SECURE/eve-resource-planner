@@ -253,9 +253,6 @@
   <data name="Genetically_Enhanced_Livestock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Genetically Enhanced Livestock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Organic_Mortar_Applications" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Organic Mortar Applications.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Hazmat_Detection_Systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hazmat Detection Systems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -396,5 +393,8 @@
   </data>
   <data name="Temperate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Temperate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Organic_Mortar_Applicators" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\organic mortar applicators.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
