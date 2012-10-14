@@ -105,6 +105,64 @@ namespace EVETool
             R3_P2_2_P1_2Img.Image = P4_R3Imgs[9];
             R3_P2_2_P1_2_RMImg.Image = P4_R3Imgs[10];
 
+            if (Index == 0)
+            {
+                if (Amount % 1 == 0)
+                {
+                    double P1, P3, P2, RM;
+                    FinalAmount.Text = String.Format("{0:n}", Amount) + "u";
+                    P3 = (Amount * 6);
+                    P2 = (P3 / 3) * 40;
+                    P1 = (P2 / 5) * 40;
+                    RM = (P1 / 20) * 3000;
+
+                    R1Amount.Text = String.Format("{0:n}", P3) + "u";
+                    R2Amount.Text = R1Amount.Text;
+                    R3Amount.Text = R1Amount.Text;
+                    R1_P2Amount.Text = String.Format("{0:n}", P2) + "u";
+                    R2_P2Amount.Text = R1_P2Amount.Text;
+                    R3_P2Amount.Text = R1_P2Amount.Text;
+                    R1_P1Amount.Text = String.Format("{0:n}", P1) + "u";
+                    R2_P1Amount.Text = R1_P1Amount.Text;
+                    R3_P1Amount.Text = R1_P1Amount.Text;
+                    R1_P0Amount.Text = String.Format("{0:n}", RM) + "u";
+                    R2_P0Amount.Text = R1_P0Amount.Text;
+                    R3_P0Amount.Text = R1_P0Amount.Text;
+
+                }
+                else
+                {
+                    Popup error = new Popup("Invalid Entry", "The entered value must be a number divisible by 1");
+                    error.Show();
+                }
+            }
+            else if (Index == 1)
+            {
+
+                double P4, P1, P3, P2, RM;
+                P4 = Math.Truncate(Amount / 100);
+                P3 = (P4 * 6);
+                P2 = (P3 / 3) * 40;
+                P1 = (P2 / 5) * 40;
+                RM = (P1 / 20) * 3000;
+                
+                
+                FinalAmount.Text = String.Format("{0:n}", P4) + "u";
+                R1Amount.Text = String.Format("{0:n}", P3) + "u";
+                R2Amount.Text = R1Amount.Text;
+                R3Amount.Text = R1Amount.Text;
+                R1_P2Amount.Text = String.Format("{0:n}", P2) + "u";
+                R2_P2Amount.Text = R1_P2Amount.Text;
+                R3_P2Amount.Text = R1_P2Amount.Text;
+                R1_P1Amount.Text = String.Format("{0:n}", P1) + "u";
+                R2_P1Amount.Text = R1_P1Amount.Text;
+                R3_P1Amount.Text = R1_P1Amount.Text;
+                R1_P0Amount.Text = String.Format("{0:n}", RM) + "u";
+                R2_P0Amount.Text = R1_P0Amount.Text;
+                R3_P0Amount.Text = R1_P0Amount.Text;
+
+            }
+
         }
 
         private void R1_P2_1Img_MouseHover(object sender, EventArgs e)
