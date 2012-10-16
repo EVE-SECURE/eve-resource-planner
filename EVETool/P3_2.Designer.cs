@@ -33,9 +33,9 @@
             this.Resource1_P1_2Label = new System.Windows.Forms.TextBox();
             this.P1Amount = new System.Windows.Forms.TextBox();
             this.Resource1_P1_1Label = new System.Windows.Forms.TextBox();
-            this.Resource1_P1_2_RMLabel = new System.Windows.Forms.TextBox();
-            this.RMAmount = new System.Windows.Forms.TextBox();
             this.Resource1_P1_1_RMLabel = new System.Windows.Forms.TextBox();
+            this.RMAmount = new System.Windows.Forms.TextBox();
+            this.Resource1_P1_2_RMLabel = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.P0_1Pic = new System.Windows.Forms.PictureBox();
             this.P0Pic = new System.Windows.Forms.PictureBox();
@@ -146,18 +146,18 @@
             this.Resource1_P1_1Label.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Resource1_P1_1Label.WordWrap = false;
             // 
-            // Resource1_P1_2_RMLabel
+            // Resource1_P1_1_RMLabel
             // 
-            this.Resource1_P1_2_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.Resource1_P1_2_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Resource1_P1_2_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1_P1_2_RMLabel.Location = new System.Drawing.Point(142, 263);
-            this.Resource1_P1_2_RMLabel.Name = "Resource1_P1_2_RMLabel";
-            this.Resource1_P1_2_RMLabel.ReadOnly = true;
-            this.Resource1_P1_2_RMLabel.Size = new System.Drawing.Size(132, 23);
-            this.Resource1_P1_2_RMLabel.TabIndex = 44;
-            this.Resource1_P1_2_RMLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Resource1_P1_2_RMLabel.WordWrap = false;
+            this.Resource1_P1_1_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Resource1_P1_1_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Resource1_P1_1_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
+            this.Resource1_P1_1_RMLabel.Location = new System.Drawing.Point(142, 263);
+            this.Resource1_P1_1_RMLabel.Name = "Resource1_P1_1_RMLabel";
+            this.Resource1_P1_1_RMLabel.ReadOnly = true;
+            this.Resource1_P1_1_RMLabel.Size = new System.Drawing.Size(132, 23);
+            this.Resource1_P1_1_RMLabel.TabIndex = 44;
+            this.Resource1_P1_1_RMLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Resource1_P1_1_RMLabel.WordWrap = false;
             // 
             // RMAmount
             // 
@@ -169,18 +169,18 @@
             this.RMAmount.TabIndex = 43;
             this.RMAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Resource1_P1_1_RMLabel
+            // Resource1_P1_2_RMLabel
             // 
-            this.Resource1_P1_1_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.Resource1_P1_1_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Resource1_P1_1_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
-            this.Resource1_P1_1_RMLabel.Location = new System.Drawing.Point(280, 263);
-            this.Resource1_P1_1_RMLabel.Name = "Resource1_P1_1_RMLabel";
-            this.Resource1_P1_1_RMLabel.ReadOnly = true;
-            this.Resource1_P1_1_RMLabel.Size = new System.Drawing.Size(132, 23);
-            this.Resource1_P1_1_RMLabel.TabIndex = 42;
-            this.Resource1_P1_1_RMLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Resource1_P1_1_RMLabel.WordWrap = false;
+            this.Resource1_P1_2_RMLabel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Resource1_P1_2_RMLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Resource1_P1_2_RMLabel.ForeColor = System.Drawing.SystemColors.Window;
+            this.Resource1_P1_2_RMLabel.Location = new System.Drawing.Point(280, 263);
+            this.Resource1_P1_2_RMLabel.Name = "Resource1_P1_2_RMLabel";
+            this.Resource1_P1_2_RMLabel.ReadOnly = true;
+            this.Resource1_P1_2_RMLabel.Size = new System.Drawing.Size(132, 23);
+            this.Resource1_P1_2_RMLabel.TabIndex = 42;
+            this.Resource1_P1_2_RMLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Resource1_P1_2_RMLabel.WordWrap = false;
             // 
             // panel1
             // 
@@ -537,9 +537,9 @@
             this.Controls.Add(this.Resource1_P1_2Label);
             this.Controls.Add(this.P1Amount);
             this.Controls.Add(this.Resource1_P1_1Label);
-            this.Controls.Add(this.Resource1_P1_2_RMLabel);
-            this.Controls.Add(this.RMAmount);
             this.Controls.Add(this.Resource1_P1_1_RMLabel);
+            this.Controls.Add(this.RMAmount);
+            this.Controls.Add(this.Resource1_P1_2_RMLabel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
@@ -581,9 +581,9 @@
         private System.Windows.Forms.TextBox Resource1_P1_2Label;
         private System.Windows.Forms.TextBox P1Amount;
         private System.Windows.Forms.TextBox Resource1_P1_1Label;
-        private System.Windows.Forms.TextBox Resource1_P1_2_RMLabel;
-        private System.Windows.Forms.TextBox RMAmount;
         private System.Windows.Forms.TextBox Resource1_P1_1_RMLabel;
+        private System.Windows.Forms.TextBox RMAmount;
+        private System.Windows.Forms.TextBox Resource1_P1_2_RMLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;

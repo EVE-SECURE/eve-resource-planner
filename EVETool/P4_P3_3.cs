@@ -13,12 +13,13 @@ using System.Reflection;
 namespace EVETool
 {
     public partial class P4_P3_3 : UserControl
-    {
+    {       
+        String[] P4_Res1;
+        String[] P4_Res2;
+        String[] P4_Res3;
         public P4_P3_3(List<String> P4_R1, List<String> P4_R2, List<String> P4_R3, int Index, Double Amount)
         {
-            String[] P4_Res1;
-            String[] P4_Res2;
-            String[] P4_Res3;
+            
             InitializeComponent();
             P4_Res1 = new String[P4_R1.Count];
             P4_Res2 = new String[P4_R2.Count];
@@ -87,6 +88,196 @@ namespace EVETool
             R1_P2_3_P1_1_RMImg.Image = P4_R1Imgs[14];
             R1_P2_3_P1_2Img.Image = P4_R1Imgs[15];
             R1_P2_3_P1_2_RMImg.Image = P4_R1Imgs[16];
+            R2Img.Image = P4_R2Imgs[0];
+            R2_P2_1Img.Image = P4_R2Imgs[1];
+            R2_P2_1_P1_1Img.Image = P4_R2Imgs[2];
+            R2_P2_1_P1_1_RMImg.Image = P4_R2Imgs[3];
+            R2_P2_1_P1_2Img.Image = P4_R2Imgs[4];
+            R2_P2_1_P1_2_RMImg.Image = P4_R2Imgs[5];
+            R2_P2_2Img.Image = P4_R2Imgs[6];
+            R2_P2_2_P1_1Img.Image = P4_R2Imgs[7];
+            R2_P2_2_P1_1_RMImg.Image = P4_R2Imgs[8];
+            R2_P2_2_P1_2Img.Image = P4_R2Imgs[9];
+            R2_P2_2_P1_2_RMImg.Image = P4_R2Imgs[10];
+            R2_P2_3Img.Image = P4_R2Imgs[11];
+            R2_P2_3_P1_1Img.Image = P4_R2Imgs[12];
+            R2_P2_3_P1_1_RMImg.Image = P4_R2Imgs[13];
+            R2_P2_3_P1_2Img.Image = P4_R2Imgs[14];
+            R2_P2_3_P1_2_RMImg.Image = P4_R2Imgs[15];
+            R3Img.Image = P4_R3Imgs[0];
+            R3_P2_1Img.Image = P4_R3Imgs[1];
+            R3_P2_1_P1_1Img.Image = P4_R3Imgs[2];
+            R3_P2_1_P1_1_RMImg.Image = P4_R3Imgs[3];
+            R3_P2_1_P1_2Img.Image = P4_R3Imgs[4];
+            R3_P2_1_P1_2_RMImg.Image = P4_R3Imgs[5];
+            R3_P2_2Img.Image = P4_R3Imgs[6];
+            R3_P2_2_P1_1Img.Image = P4_R3Imgs[7];
+            R3_P2_2_P1_1_RMImg.Image = P4_R3Imgs[8];
+            R3_P2_2_P1_2Img.Image = P4_R3Imgs[9];
+            R3_P2_2_P1_2_RMImg.Image = P4_R3Imgs[10];
+            R3_P2_3Img.Image = P4_R3Imgs[11];
+            R3_P2_3_P1_1Img.Image = P4_R3Imgs[12];
+            R3_P2_3_P1_1_RMImg.Image = P4_R3Imgs[13];
+            R3_P2_3_P1_2Img.Image = P4_R3Imgs[14];
+            R3_P2_3_P1_2_RMImg.Image = P4_R3Imgs[15];
+
+            if (Index == 0)
+            {
+                if (Amount % 1 == 0)
+                {
+                    double P1, P3, P2, RM;
+                    FinalAmount.Text = String.Format("{0:n}", Amount) + "u";
+                    P3 = (Amount * 6);
+                    P2 = (P3 / 3) * 40;
+                    P1 = (P2 / 5) * 40;
+                    RM = (P1 / 20) * 3000;
+
+                    R1Amount.Text = String.Format("{0:n}", P3) + "u";
+                    R2Amount.Text = R1Amount.Text;
+                    R3Amount.Text = R1Amount.Text;
+                    R1_P2Amount.Text = String.Format("{0:n}", P2) + "u";
+                    R2_P2Amount.Text = R1_P2Amount.Text;
+                    R3_P2Amount.Text = R1_P2Amount.Text;
+                    R1_P1Amount.Text = String.Format("{0:n}", P1) + "u";
+                    R2_P1Amount.Text = R1_P1Amount.Text;
+                    R3_P1Amount.Text = R1_P1Amount.Text;
+                    R1_P0Amount.Text = String.Format("{0:n}", RM) + "u";
+                    R2_P0Amount.Text = R1_P0Amount.Text;
+                    R3_P0Amount.Text = R1_P0Amount.Text;
+
+                }
+                else
+                {
+                    Popup error = new Popup("Invalid Entry", "The entered value must be a number divisible by 1");
+                    error.Show();
+                }
+            }
+            else if (Index == 1)
+            {
+
+                double P4, P1, P3, P2, RM;
+                P4 = Math.Truncate(Amount / 100);
+                P3 = (P4 * 6);
+                P2 = (P3 / 3) * 40;
+                P1 = (P2 / 5) * 40;
+                RM = (P1 / 20) * 3000;
+
+
+                FinalAmount.Text = String.Format("{0:n}", P4) + "u";
+                R1Amount.Text = String.Format("{0:n}", P3) + "u";
+                R2Amount.Text = R1Amount.Text;
+                R3Amount.Text = R1Amount.Text;
+                R1_P2Amount.Text = String.Format("{0:n}", P2) + "u";
+                R2_P2Amount.Text = R1_P2Amount.Text;
+                R3_P2Amount.Text = R1_P2Amount.Text;
+                R1_P1Amount.Text = String.Format("{0:n}", P1) + "u";
+                R2_P1Amount.Text = R1_P1Amount.Text;
+                R3_P1Amount.Text = R1_P1Amount.Text;
+                R1_P0Amount.Text = String.Format("{0:n}", RM) + "u";
+                R2_P0Amount.Text = R1_P0Amount.Text;
+                R3_P0Amount.Text = R1_P0Amount.Text;
+
+            }
         }
+
+        private void R1_P2_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[2], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[3], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_1_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[4], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[5], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_1_P1_2_RMImg_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[6], this, B.X + 10, B.Y + 15, 3000);
+        }
+        private void R1_P2_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[7], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_3Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res1[12], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R2_P2_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[2], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R2_P2_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[7], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R2_P2_3Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res2[12], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_1Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res3[2], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_2Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res3[7], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R3_P2_3Img_MouseHover(object sender, EventArgs e)
+        {
+            Point B = PointToClient(Cursor.Position);
+            ResourceName.Show(P4_Res3[12], this, B.X + 10, B.Y + 15, 3000);
+        }
+
+        private void R1_P2_2_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void R1_P2_2_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void R1_P2_3_P1_1Img_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void R1_P2_3_P1_2Img_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+
+
     }
 }

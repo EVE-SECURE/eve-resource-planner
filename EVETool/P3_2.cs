@@ -42,9 +42,9 @@ namespace EVETool
             FinalLabel.Text = RawMaterial[0];
             Resource1Label.Text = RawMaterial[1];
             Resource1_P1_1Label.Text = RawMaterial[2];
-            Resource1_P1_1_RMLabel.Text = RawMaterial[3];
-            Resource1_P1_2Label.Text = RawMaterial[4];
             Resource1_P1_2_RMLabel.Text = RawMaterial[5];
+            Resource1_P1_2Label.Text = RawMaterial[4];
+            Resource1_P1_1_RMLabel.Text = RawMaterial[3];
             Resource2Label.Text = RawMaterial[6];
             Resource2_P1_1Label.Text = RawMaterial[7];
             Resource2_P1_1_RMLabel.Text = RawMaterial[8];
