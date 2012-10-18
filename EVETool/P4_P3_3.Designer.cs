@@ -350,6 +350,7 @@
             this.R1_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_2_RMImg.TabIndex = 218;
             this.R1_P2_2_P1_2_RMImg.TabStop = false;
+            this.R1_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R1_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R1_P2_3_P1_2_RMImg
             // 
@@ -358,6 +359,7 @@
             this.R1_P2_3_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_3_P1_2_RMImg.TabIndex = 186;
             this.R1_P2_3_P1_2_RMImg.TabStop = false;
+            this.R1_P2_3_P1_2_RMImg.MouseHover += new System.EventHandler(this.R1_P2_3_P1_2_RMImg_MouseHover);
             // 
             // R1_P2_2_P1_1_RMImg
             // 
@@ -366,6 +368,7 @@
             this.R1_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_2_P1_1_RMImg.TabIndex = 217;
             this.R1_P2_2_P1_1_RMImg.TabStop = false;
+            this.R1_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R1_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R1_P2_3_P1_1_RMImg
             // 
@@ -374,6 +377,7 @@
             this.R1_P2_3_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R1_P2_3_P1_1_RMImg.TabIndex = 185;
             this.R1_P2_3_P1_1_RMImg.TabStop = false;
+            this.R1_P2_3_P1_1_RMImg.MouseHover += new System.EventHandler(this.R1_P2_3_P1_1_RMImg_MouseHover);
             // 
             // panel2
             // 
@@ -571,6 +575,7 @@
             this.R2_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_2_RMImg.TabIndex = 218;
             this.R2_P2_2_P1_2_RMImg.TabStop = false;
+            this.R2_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R2_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R2_P2_3_P1_2_RMImg
             // 
@@ -579,6 +584,7 @@
             this.R2_P2_3_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_3_P1_2_RMImg.TabIndex = 186;
             this.R2_P2_3_P1_2_RMImg.TabStop = false;
+            this.R2_P2_3_P1_2_RMImg.MouseHover += new System.EventHandler(this.R2_P2_3_P1_2_RMImg_MouseHover);
             // 
             // R2_P2_2_P1_1_RMImg
             // 
@@ -587,6 +593,7 @@
             this.R2_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_1_RMImg.TabIndex = 217;
             this.R2_P2_2_P1_1_RMImg.TabStop = false;
+            this.R2_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R2_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R2_P2_3_P1_1_RMImg
             // 
@@ -595,6 +602,7 @@
             this.R2_P2_3_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_3_P1_1_RMImg.TabIndex = 185;
             this.R2_P2_3_P1_1_RMImg.TabStop = false;
+            this.R2_P2_3_P1_1_RMImg.MouseHover += new System.EventHandler(this.R2_P2_3_P1_1_RMImg_MouseHover);
             // 
             // label1
             // 
@@ -615,6 +623,7 @@
             this.R2_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R2_P2_1_P1_2_RMImg.TabStop = false;
+            this.R2_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R2_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R2_P2_1_P1_1_RMImg
             // 
@@ -623,6 +632,7 @@
             this.R2_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R2_P2_1_P1_1_RMImg.TabStop = false;
+            this.R2_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R2_P2_1_P1_1_RMImg_MouseHover);
             // 
             // panel3
             // 
@@ -647,6 +657,7 @@
             this.R2_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_2Img.TabIndex = 188;
             this.R2_P2_2_P1_2Img.TabStop = false;
+            this.R2_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R2_P2_2_P1_2Img_MouseHover);
             // 
             // R2_P2_3_P1_2Img
             // 
@@ -655,6 +666,7 @@
             this.R2_P2_3_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_3_P1_2Img.TabIndex = 186;
             this.R2_P2_3_P1_2Img.TabStop = false;
+            this.R2_P2_3_P1_2Img.MouseHover += new System.EventHandler(this.R2_P2_3_P1_2Img_MouseHover);
             // 
             // R2_P2_2_P1_1Img
             // 
@@ -663,6 +675,7 @@
             this.R2_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_2_P1_1Img.TabIndex = 187;
             this.R2_P2_2_P1_1Img.TabStop = false;
+            this.R2_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R2_P2_2_P1_1Img_MouseHover);
             // 
             // R2_P2_3_P1_1Img
             // 
@@ -671,6 +684,7 @@
             this.R2_P2_3_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_3_P1_1Img.TabIndex = 185;
             this.R2_P2_3_P1_1Img.TabStop = false;
+            this.R2_P2_3_P1_1Img.MouseHover += new System.EventHandler(this.R2_P2_3_P1_1Img_MouseHover);
             // 
             // R2_P1Amount
             // 
@@ -701,6 +715,7 @@
             this.R2_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_2Img.TabIndex = 184;
             this.R2_P2_1_P1_2Img.TabStop = false;
+            this.R2_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R2_P2_1_P1_2Img_MouseHover);
             // 
             // R2_P2_1_P1_1Img
             // 
@@ -709,6 +724,7 @@
             this.R2_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R2_P2_1_P1_1Img.TabIndex = 183;
             this.R2_P2_1_P1_1Img.TabStop = false;
+            this.R2_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R2_P2_1_P1_1Img_MouseHover);
             // 
             // panel6
             // 
@@ -860,6 +876,7 @@
             this.R3_P2_2_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_2_RMImg.TabIndex = 218;
             this.R3_P2_2_P1_2_RMImg.TabStop = false;
+            this.R3_P2_2_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_2_P1_2_RMImg_MouseHover);
             // 
             // R3_P2_3_P1_2_RMImg
             // 
@@ -868,6 +885,7 @@
             this.R3_P2_3_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_3_P1_2_RMImg.TabIndex = 186;
             this.R3_P2_3_P1_2_RMImg.TabStop = false;
+            this.R3_P2_3_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_3_P1_2_RMImg_MouseHover);
             // 
             // R3_P2_2_P1_1_RMImg
             // 
@@ -876,6 +894,7 @@
             this.R3_P2_2_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_1_RMImg.TabIndex = 217;
             this.R3_P2_2_P1_1_RMImg.TabStop = false;
+            this.R3_P2_2_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_2_P1_1_RMImg_MouseHover);
             // 
             // R3_P2_3_P1_1_RMImg
             // 
@@ -884,6 +903,7 @@
             this.R3_P2_3_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_3_P1_1_RMImg.TabIndex = 185;
             this.R3_P2_3_P1_1_RMImg.TabStop = false;
+            this.R3_P2_3_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_3_P1_1_RMImg_MouseHover);
             // 
             // label8
             // 
@@ -904,6 +924,7 @@
             this.R3_P2_1_P1_2_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_2_RMImg.TabIndex = 184;
             this.R3_P2_1_P1_2_RMImg.TabStop = false;
+            this.R3_P2_1_P1_2_RMImg.MouseHover += new System.EventHandler(this.R3_P2_1_P1_2_RMImg_MouseHover);
             // 
             // R3_P2_1_P1_1_RMImg
             // 
@@ -912,6 +933,7 @@
             this.R3_P2_1_P1_1_RMImg.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_1_RMImg.TabIndex = 183;
             this.R3_P2_1_P1_1_RMImg.TabStop = false;
+            this.R3_P2_1_P1_1_RMImg.MouseHover += new System.EventHandler(this.R3_P2_1_P1_1_RMImg_MouseHover);
             // 
             // panel9
             // 
@@ -936,6 +958,7 @@
             this.R3_P2_2_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_2Img.TabIndex = 188;
             this.R3_P2_2_P1_2Img.TabStop = false;
+            this.R3_P2_2_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_2_P1_2Img_MouseHover);
             // 
             // R3_P2_3_P1_2Img
             // 
@@ -944,6 +967,7 @@
             this.R3_P2_3_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_3_P1_2Img.TabIndex = 186;
             this.R3_P2_3_P1_2Img.TabStop = false;
+            this.R3_P2_3_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_3_P1_2Img_MouseHover);
             // 
             // R3_P2_2_P1_1Img
             // 
@@ -952,6 +976,7 @@
             this.R3_P2_2_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_2_P1_1Img.TabIndex = 187;
             this.R3_P2_2_P1_1Img.TabStop = false;
+            this.R3_P2_2_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_2_P1_1Img_MouseHover);
             // 
             // R3_P2_3_P1_1Img
             // 
@@ -960,6 +985,7 @@
             this.R3_P2_3_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_3_P1_1Img.TabIndex = 185;
             this.R3_P2_3_P1_1Img.TabStop = false;
+            this.R3_P2_3_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_3_P1_1Img_MouseHover);
             // 
             // R3_P1Amount
             // 
@@ -990,6 +1016,7 @@
             this.R3_P2_1_P1_2Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_2Img.TabIndex = 184;
             this.R3_P2_1_P1_2Img.TabStop = false;
+            this.R3_P2_1_P1_2Img.MouseHover += new System.EventHandler(this.R3_P2_1_P1_2Img_MouseHover);
             // 
             // R3_P2_1_P1_1Img
             // 
@@ -998,6 +1025,7 @@
             this.R3_P2_1_P1_1Img.Size = new System.Drawing.Size(64, 64);
             this.R3_P2_1_P1_1Img.TabIndex = 183;
             this.R3_P2_1_P1_1Img.TabStop = false;
+            this.R3_P2_1_P1_1Img.MouseHover += new System.EventHandler(this.R3_P2_1_P1_1Img_MouseHover);
             // 
             // panel10
             // 
