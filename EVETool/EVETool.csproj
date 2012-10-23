@@ -317,6 +317,7 @@
     <None Include="Resources\Plasma.png" />
     <None Include="Resources\Storm.png" />
     <None Include="Resources\Temperate.png" />
+    <EmbeddedResource Include="Resources\Wetware Mainframe.png" />
     <Content Include="ScienceIndustry.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
