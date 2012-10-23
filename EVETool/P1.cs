@@ -16,49 +16,26 @@ namespace EVETool
     {
         public P1(List<String> P1Resources, int Index, Double Amount)
         {   
-            InitializeComponent();
-            Stream P1Stream = null;
-            Stream P0Stream = null;
-            Image P1img = null;
-            Image P0img = null;
+            List<Image> ResourceImg = new List<Image>();
+	        InitializeComponent();
+            Stream ResourceStream = null;
+
             Result.Text = P1Resources[0];
             RMLabel.Text = P1Resources[1];
-            try
+            
+	        for (int i = 0; i < P1Resources.Count; i++)
             {
-                // Pulls the image by the name of the resource stored in list from running assembly.
-                P1Stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[0] + ".png");
-                P1img = Image.FromStream(P1Stream, true, true);
-                P1Pic.Image = P1img;
-            }
-            catch (ArgumentException)
-            {
-                if (P1img != null)
-                    P1img.Dispose();
+	            try
+                {
+                    // Pulls the image by the name of the resource stored in list from running assembly.
+                    ResourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[i] + ".png");
+                    ResourceImg.Add(Image.FromStream(ResourceStream, true, true));
+                }
+                catch (ArgumentException){ResourceImg.Add(null);}
+	        }
 
-                if (P1Stream != null)
-                    P1Stream.Dispose();
-
-                P1Pic.Image = null;
-            }
-            try
-            {
-                // Pulls the image by the name of the resource stored in list from running assembly.
-                P0Stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("EVETool.Resources." + P1Resources[1] + ".png");
-                P0img = Image.FromStream(P0Stream, true, true);
-                P0Pic.Image = P0img;
-            }
-            catch (ArgumentException)
-            {
-                if (P0img != null)
-                    P0img.Dispose();
-
-                if (P0Stream != null)
-                    P0Stream.Dispose();
-
-                P0Pic.Image = null;
-            }
-
-
+	        P1Pic.Image = ResourceImg[0];
+            P0Pic.Image = ResourceImg[1];
 
             if (Index == 0) {
                 if (Amount % 20 == 0) {

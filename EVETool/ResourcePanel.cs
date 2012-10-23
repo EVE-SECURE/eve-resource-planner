@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace EVETool {
+namespace EVETool
+{
 
     public partial class ResourcePanel : UserControl
     {
@@ -52,7 +53,7 @@ namespace EVETool {
                 DesiredProduct.Items.Clear();
                 DesiredLabel.Visible = true;
                 DesiredProduct.Visible = true;
-                
+
 
                 // Depending on what value is chosen in the first combo-box pull from different queries in the ScienceIndustry Database.
                 if (ResourceTier.SelectedIndex == 0) // Tier 1
@@ -86,11 +87,18 @@ namespace EVETool {
                 }
                 if (ResourceTier.SelectedIndex == 2) // Tier 3
                 {
-                    SIDataSetTableAdapters.P3_QueryTableAdapter P3TableAdapter = new SIDataSetTableAdapters.P3_QueryTableAdapter();
-                    SIDataSet.P3_QueryDataTable P3DataTable = new SIDataSet.P3_QueryDataTable();
+                    StoredData.Clear();
+                    SIDataSetTableAdapters.P3TableAdapter P3TableAdapter = new SIDataSetTableAdapters.P3TableAdapter();
+                    SIDataSet.P3DataTable P3DataTable = new SIDataSet.P3DataTable();
                     P3TableAdapter.Fill(P3DataTable);
                     for (int i = 0; i < P3DataTable.Rows.Count; i++)
-                        DesiredProduct.Items.Add(P3DataTable.Rows[i]["P3"].ToString());
+                    {
+                        //DesiredProduct.Items.Add(P3DataTable.Rows[i]["P3"].ToString());
+                        StoredData.Add(P3DataTable.Rows[i]["P3"].ToString());
+                        StoredData.Add(P3DataTable.Rows[i]["Planets"].ToString());
+                    }
+
+                    PopulateDesiredProduct();
                 }
                 if (ResourceTier.SelectedIndex == 3) // Tier 4
                 {
@@ -98,14 +106,20 @@ namespace EVETool {
                     SIDataSet.P4DataTable P4DataTable = new SIDataSet.P4DataTable();
                     P4TableAdapter.Fill(P4DataTable);
                     for (int i = 0; i < P4DataTable.Rows.Count; i++)
-                        DesiredProduct.Items.Add(P4DataTable.Rows[i]["P4"].ToString());
+                    {
+                        //DesiredProduct.Items.Add(P4DataTable.Rows[i]["P4"].ToString());
+                        StoredData.Add(P4DataTable.Rows[i]["P4"].ToString());
+                        StoredData.Add(P4DataTable.Rows[i]["Planets"].ToString());
+                    }
+
+                    PopulateDesiredProduct();
                 }
             }
-            
+
             // If database can't be accessed uses popup window form to display this error.
             catch (System.Data.OleDb.OleDbException)
             {
-                 Popup error = new Popup("Database Error", "A problem has occured while trying to access the database.");
+                Popup error = new Popup("Database Error", "A problem has occured while trying to access the database.");
                 error.Show();
             }
         }
@@ -381,7 +395,7 @@ namespace EVETool {
                 error.Show();
             }
         }
-        
+
         // Function used to decide what resource to put in the DesiredProduct Combobox based on the planets that are selected
         public void PopulateDesiredProduct()
         {
@@ -390,55 +404,80 @@ namespace EVETool {
                 List<Boolean> CheckAll = new List<Boolean>();
                 for (int i = 1; i < StoredData.Capacity; i += 2)
                 {
-                    String[] From = StoredData[i].Split(',');
-                    for (int l = 0; l < From.Length; l++)
+                    if (StoredData[i].Contains('+') == true)
                     {
-                        if (From[l].Contains('+') == true)
+                        CheckAll.Clear();
+                        String[] MultiPlanets = StoredData[i].Split('+');
+                        Boolean needCheck = new Boolean();
+                        for (int l = 0; l < MultiPlanets.Length; l++)
                         {
-                            String[] DoublePlanets = From[l].Split('+');
-                            CheckAll.Clear();
-                            for (int m = 0; m < DoublePlanets.Length; m++)
+                            if (MultiPlanets[l].Length > 1)
+                                needCheck = true;
+                        }
+                        if (needCheck == true)
+                        {
+                            for (int j = 0; j < MultiPlanets.Length; j++)
                             {
-                                for (int n = 0; n < Planets.Count; n++)
+                                
+                                String[] From = MultiPlanets[j].Split(',');
+                                List<Boolean> CheckEach = new List<Boolean>();
+                                for (int m = 0; m < From.Length; m++)
                                 {
-                                    if (DoublePlanets[m].Equals(Planets[n]) == true)
+                                    for (int n = 0; n < Planets.Count; n++)
                                     {
-                                        if (PlanetToggles[n] == true)
+                                        if (From[m].Equals(Planets[n]) == true)
                                         {
-                                            CheckAll.Add(true);
-                                            break;
-                                        }
-                                        else
-                                        {
-                                            CheckAll.Add(false);
-                                            break;
+                                            if (PlanetToggles[n] == true)
+                                                CheckEach.Add(true);
+                                            else
+                                                CheckEach.Add(false);
                                         }
                                     }
                                 }
-                            }
-                            if (CheckAll.Contains(false) == false)
-                            {
-                                if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
-                                    DesiredProduct.Items.Add(StoredData[i - 1]);
+                                if (CheckEach.Contains(true) == true)
+                                    CheckAll.Add(true);
+                                else
+                                    CheckAll.Add(false);
                             }
                         }
                         else
                         {
-                            for (int k = 0; k < From.Length; k++)
+                            for (int m = 0; m < MultiPlanets.Length; m++)
                             {
-                                for (int j = 0; j < Planets.Count; j++)
+                                for (int n = 0; n < Planets.Count; n++)
                                 {
-                                    if ((From[k] == Planets[j]) && (PlanetToggles[j] == true))
+                                    if (MultiPlanets[m].Equals(Planets[n]) == true)
                                     {
-                                        if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
-                                            DesiredProduct.Items.Add(StoredData[i - 1]);
+                                        if (PlanetToggles[n] == true)
+                                            CheckAll.Add(true);
+                                        else
+                                            CheckAll.Add(false);
                                     }
+                                }
+                            }
+                        }
+                        if (CheckAll.Contains(false) == false)
+                        {
+                            if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
+                                DesiredProduct.Items.Add(StoredData[i - 1]);
+                        }
+                    }
+                    else
+                    {
+                        String[] From = StoredData[i].Split(',');
+                        for (int k = 0; k < From.Length; k++)
+                        {
+                            for (int j = 0; j < Planets.Count; j++)
+                            {
+                                if ((From[k] == Planets[j]) && (PlanetToggles[j] == true))
+                                {
+                                    if (DesiredProduct.FindStringExact(StoredData[i - 1]) == -1)
+                                        DesiredProduct.Items.Add(StoredData[i - 1]);
                                 }
                             }
                         }
                     }
                 }
-
             }
             catch (ArgumentOutOfRangeException) { }
         }
