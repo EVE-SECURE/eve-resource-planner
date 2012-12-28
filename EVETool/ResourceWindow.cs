@@ -146,52 +146,5 @@ namespace EVETool
             }
         }
 
-        private void Barren_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Barren", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Gas_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Gas", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Ice_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Ice", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Lava_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Lava", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Oceanic_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Oceanic", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Plasma_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Plasma", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Storm_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Storm", this, B.X + 10, B.Y + 15, 3000);
-        }
-
-        private void Temperate_MouseHover(object sender, EventArgs e)
-        {
-            Point B = PointToClient(Cursor.Position);
-            ToolTip.Show("Temperate", this, B.X + 10, B.Y + 15, 3000);
-        }
     }
 }

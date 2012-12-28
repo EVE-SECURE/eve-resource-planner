@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResourceWindow));
             this.ResourcePanel = new System.Windows.Forms.Panel();
-            this.SetSize = new System.Windows.Forms.Panel();
             this.Temperate = new System.Windows.Forms.PictureBox();
             this.Storm = new System.Windows.Forms.PictureBox();
             this.Plasma = new System.Windows.Forms.PictureBox();
@@ -41,7 +39,6 @@
             this.Gas = new System.Windows.Forms.PictureBox();
             this.Barren = new System.Windows.Forms.PictureBox();
             this.NewIndustryInter = new System.Windows.Forms.Button();
-            this.ToolTip = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Temperate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Storm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Plasma)).BeginInit();
@@ -54,13 +51,9 @@
             // 
             // ResourcePanel
             // 
+            this.ResourcePanel.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
             resources.ApplyResources(this.ResourcePanel, "ResourcePanel");
             this.ResourcePanel.Name = "ResourcePanel";
-            // 
-            // SetSize
-            // 
-            resources.ApplyResources(this.SetSize, "SetSize");
-            this.SetSize.Name = "SetSize";
             // 
             // Temperate
             // 
@@ -70,7 +63,6 @@
             this.Temperate.Name = "Temperate";
             this.Temperate.TabStop = false;
             this.Temperate.Click += new System.EventHandler(this.Temperate_Click);
-            this.Temperate.MouseHover += new System.EventHandler(this.Temperate_MouseHover);
             // 
             // Storm
             // 
@@ -80,7 +72,6 @@
             this.Storm.Name = "Storm";
             this.Storm.TabStop = false;
             this.Storm.Click += new System.EventHandler(this.Storm_Click);
-            this.Storm.MouseHover += new System.EventHandler(this.Storm_MouseHover);
             // 
             // Plasma
             // 
@@ -90,7 +81,6 @@
             this.Plasma.Name = "Plasma";
             this.Plasma.TabStop = false;
             this.Plasma.Click += new System.EventHandler(this.Plasma_Click);
-            this.Plasma.MouseHover += new System.EventHandler(this.Plasma_MouseHover);
             // 
             // Oceanic
             // 
@@ -100,7 +90,6 @@
             this.Oceanic.Name = "Oceanic";
             this.Oceanic.TabStop = false;
             this.Oceanic.Click += new System.EventHandler(this.Oceanic_Click);
-            this.Oceanic.MouseHover += new System.EventHandler(this.Oceanic_MouseHover);
             // 
             // Lava
             // 
@@ -110,7 +99,6 @@
             this.Lava.Name = "Lava";
             this.Lava.TabStop = false;
             this.Lava.Click += new System.EventHandler(this.Lava_Click);
-            this.Lava.MouseHover += new System.EventHandler(this.Lava_MouseHover);
             // 
             // Ice
             // 
@@ -120,7 +108,6 @@
             this.Ice.Name = "Ice";
             this.Ice.TabStop = false;
             this.Ice.Click += new System.EventHandler(this.Ice_Click);
-            this.Ice.MouseHover += new System.EventHandler(this.Ice_MouseHover);
             // 
             // Gas
             // 
@@ -130,7 +117,6 @@
             this.Gas.Name = "Gas";
             this.Gas.TabStop = false;
             this.Gas.Click += new System.EventHandler(this.Gas_Click);
-            this.Gas.MouseHover += new System.EventHandler(this.Gas_MouseHover);
             // 
             // Barren
             // 
@@ -140,7 +126,6 @@
             this.Barren.Name = "Barren";
             this.Barren.TabStop = false;
             this.Barren.Click += new System.EventHandler(this.Barren_Click);
-            this.Barren.MouseHover += new System.EventHandler(this.Barren_MouseHover);
             // 
             // NewIndustryInter
             // 
@@ -149,14 +134,6 @@
             this.NewIndustryInter.Name = "NewIndustryInter";
             this.NewIndustryInter.UseVisualStyleBackColor = true;
             this.NewIndustryInter.Click += new System.EventHandler(this.NewIndustryInter_Click);
-            // 
-            // ToolTip
-            // 
-            this.ToolTip.AutoPopDelay = 5000;
-            this.ToolTip.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ToolTip.ForeColor = System.Drawing.SystemColors.Window;
-            this.ToolTip.InitialDelay = 500;
-            this.ToolTip.ReshowDelay = 100;
             // 
             // ResourceWindow
             // 
@@ -173,10 +150,10 @@
             this.Controls.Add(this.Barren);
             this.Controls.Add(this.ResourcePanel);
             this.Controls.Add(this.NewIndustryInter);
-            this.Controls.Add(this.SetSize);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.MaximizeBox = false;
             this.Name = "ResourceWindow";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             ((System.ComponentModel.ISupportInitialize)(this.Temperate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Storm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Plasma)).EndInit();
@@ -193,7 +170,6 @@
 
         private System.Windows.Forms.Button NewIndustryInter;
         private System.Windows.Forms.Panel ResourcePanel;
-        private System.Windows.Forms.Panel SetSize;
         private System.Windows.Forms.PictureBox Barren;
         private System.Windows.Forms.PictureBox Gas;
         private System.Windows.Forms.PictureBox Ice;
@@ -202,7 +178,6 @@
         private System.Windows.Forms.PictureBox Plasma;
         private System.Windows.Forms.PictureBox Storm;
         private System.Windows.Forms.PictureBox Temperate;
-        private System.Windows.Forms.ToolTip ToolTip;
     }
 }
 

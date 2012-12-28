@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ResourceTier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 24</value>
+    <value>146, 24</value>
   </data>
   <data name="ResourceTier.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 21</value>
@@ -142,7 +142,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ResourceTier.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="TierLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -154,7 +154,7 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="TierLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 27</value>
+    <value>26, 27</value>
   </data>
   <data name="TierLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 15</value>
@@ -178,13 +178,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TierLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="DesiredProduct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="DesiredProduct.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 52</value>
+    <value>146, 52</value>
   </data>
   <data name="DesiredProduct.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 21</value>
@@ -205,7 +205,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DesiredProduct.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="DesiredLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -217,7 +217,7 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="DesiredLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 55</value>
+    <value>26, 55</value>
   </data>
   <data name="DesiredLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 15</value>
@@ -244,7 +244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DesiredLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="ResultsPanel.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -256,10 +256,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="ResultsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 106</value>
+    <value>3, 100</value>
+  </data>
+  <data name="ResultsPanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>854, 10</value>
   </data>
   <data name="ResultsPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
+    <value>854, 10</value>
   </data>
   <data name="ResultsPanel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -274,7 +277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ResultsPanel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="CalculateUsing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -286,7 +289,7 @@
     <value>Maximum Mass</value>
   </data>
   <data name="CalculateUsing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 40</value>
+    <value>408, 40</value>
   </data>
   <data name="CalculateUsing.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
@@ -319,7 +322,7 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="CalculateUsingLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 43</value>
+    <value>311, 43</value>
   </data>
   <data name="CalculateUsingLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 15</value>
@@ -355,7 +358,7 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>533, 43</value>
+    <value>536, 43</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 15</value>
@@ -385,7 +388,7 @@
     <value>Top</value>
   </data>
   <data name="Value.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 40</value>
+    <value>564, 40</value>
   </data>
   <data name="Value.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 20</value>
@@ -421,7 +424,7 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="MassLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>678, 44</value>
+    <value>681, 44</value>
   </data>
   <data name="MassLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 15</value>
@@ -457,7 +460,7 @@
     <value>Segoe UI, 9pt, style=Bold</value>
   </data>
   <data name="QuantityUnits.Location" type="System.Drawing.Point, System.Drawing">
-    <value>678, 43</value>
+    <value>681, 43</value>
   </data>
   <data name="QuantityUnits.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 15</value>
@@ -507,38 +510,20 @@
   <data name="&gt;&gt;BuildResult.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="SetSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 89</value>
-  </data>
-  <data name="SetSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>854, 5</value>
-  </data>
-  <data name="SetSize.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;SetSize.Name" xml:space="preserve">
-    <value>SetSize</value>
-  </data>
-  <data name="&gt;&gt;SetSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SetSize.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SetSize.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>854, 342</value>
+    <value>860, 113</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ResourcePanel</value>

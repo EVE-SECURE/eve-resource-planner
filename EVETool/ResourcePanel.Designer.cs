@@ -41,7 +41,6 @@
             this.MassLabel = new System.Windows.Forms.Label();
             this.QuantityUnits = new System.Windows.Forms.Label();
             this.BuildResult = new System.Windows.Forms.Button();
-            this.SetSize = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // ResourceTier
@@ -78,6 +77,7 @@
             // 
             // ResultsPanel
             // 
+            this.ResultsPanel.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
             resources.ApplyResources(this.ResultsPanel, "ResultsPanel");
             this.ResultsPanel.Name = "ResultsPanel";
             // 
@@ -131,15 +131,10 @@
             this.BuildResult.UseVisualStyleBackColor = false;
             this.BuildResult.Click += new System.EventHandler(this.BuildResult_Click_1);
             // 
-            // SetSize
-            // 
-            resources.ApplyResources(this.SetSize, "SetSize");
-            this.SetSize.Name = "SetSize";
-            // 
             // ResourcePanel
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Controls.Add(this.QuantityUnits);
             this.Controls.Add(this.MassLabel);
@@ -148,12 +143,12 @@
             this.Controls.Add(this.CalculateUsingLabel);
             this.Controls.Add(this.CalculateUsing);
             this.Controls.Add(this.BuildResult);
-            this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.DesiredLabel);
             this.Controls.Add(this.DesiredProduct);
             this.Controls.Add(this.TierLabel);
             this.Controls.Add(this.ResourceTier);
-            this.Controls.Add(this.SetSize);
+            this.Controls.Add(this.ResultsPanel);
+            this.MinimumSize = new System.Drawing.Size(860, 113);
             this.Name = "ResourcePanel";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -174,6 +169,5 @@
         private System.Windows.Forms.TextBox Value;
         private System.Windows.Forms.Label MassLabel;
         private System.Windows.Forms.Label QuantityUnits;
-        private System.Windows.Forms.Panel SetSize;
     }
 }

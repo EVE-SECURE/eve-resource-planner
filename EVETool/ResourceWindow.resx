@@ -129,8 +129,14 @@
   <data name="ResourcePanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 82</value>
   </data>
+  <data name="ResourcePanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ResourcePanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>851, 10</value>
+  </data>
   <data name="ResourcePanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
+    <value>851, 10</value>
   </data>
   <data name="ResourcePanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -146,27 +152,6 @@
   </data>
   <data name="&gt;&gt;ResourcePanel.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="SetSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 411</value>
-  </data>
-  <data name="SetSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>851, 10</value>
-  </data>
-  <data name="SetSize.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;SetSize.Name" xml:space="preserve">
-    <value>SetSize</value>
-  </data>
-  <data name="&gt;&gt;SetSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SetSize.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SetSize.ZOrder" xml:space="preserve">
-    <value>10</value>
   </data>
   <data name="Temperate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -423,20 +408,17 @@
   <data name="&gt;&gt;NewIndustryInter.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>875, 433</value>
+    <value>875, 432</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -976,17 +958,14 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Resource Planner</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
-    <value>ToolTip</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ResourceWindow</value>
