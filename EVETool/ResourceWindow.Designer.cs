@@ -39,6 +39,7 @@
             this.Gas = new System.Windows.Forms.PictureBox();
             this.Barren = new System.Windows.Forms.PictureBox();
             this.NewIndustryInter = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             ((System.ComponentModel.ISupportInitialize)(this.Temperate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Storm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Plasma)).BeginInit();
@@ -135,11 +136,19 @@
             this.NewIndustryInter.UseVisualStyleBackColor = true;
             this.NewIndustryInter.Click += new System.EventHandler(this.NewIndustryInter_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.SystemColors.ControlDark;
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.SizingGrip = false;
+            // 
             // ResourceWindow
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.Temperate);
             this.Controls.Add(this.Storm);
             this.Controls.Add(this.Plasma);
@@ -178,6 +187,7 @@
         private System.Windows.Forms.PictureBox Plasma;
         private System.Windows.Forms.PictureBox Storm;
         private System.Windows.Forms.PictureBox Temperate;
+        private System.Windows.Forms.StatusStrip statusStrip1;
     }
 }
 
