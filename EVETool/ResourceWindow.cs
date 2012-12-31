@@ -40,11 +40,21 @@ namespace EVETool
             {
                 BarrenToggle = false;
                 Barren.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (BarrenToggle == false)
             {
                 BarrenToggle = true;
                 Barren.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -54,11 +64,21 @@ namespace EVETool
             {
                 GasToggle = false;
                 Gas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (GasToggle == false)
             {
                 GasToggle = true;
                 Gas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -68,11 +88,21 @@ namespace EVETool
             {
                 IceToggle = false;
                 Ice.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (IceToggle == false)
             {
                 IceToggle = true;
                 Ice.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -82,11 +112,21 @@ namespace EVETool
             {
                 LavaToggle = false;
                 Lava.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (LavaToggle == false)
             {
                 LavaToggle = true;
                 Lava.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -96,11 +136,21 @@ namespace EVETool
             {
                 OceanicToggle = false;
                 Oceanic.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (OceanicToggle == false)
             {
                 OceanicToggle = true;
                 Oceanic.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -110,11 +160,21 @@ namespace EVETool
             {
                 PlasmaToggle = false;
                 Plasma.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (PlasmaToggle == false)
             {
                 PlasmaToggle = true;
                 Plasma.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -124,11 +184,21 @@ namespace EVETool
             {
                 StormToggle = false;
                 Storm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (StormToggle == false)
             {
                 StormToggle = true;
                 Storm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
         }
 
@@ -138,12 +208,102 @@ namespace EVETool
             {
                 TemperateToggle = false;
                 Temperate.BorderStyle = System.Windows.Forms.BorderStyle.None;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
             else if (TemperateToggle == false)
             {
                 TemperateToggle = true;
                 Temperate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                if (ResourcePanel.Controls != null)
+                {
+                    ResourcePanel.Controls.Clear();
+                    ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
+                }
             }
+        }
+
+        private void Barren_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Barren";
+        }
+
+        private void Barren_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Gas_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Gas";
+        }
+
+        private void Gas_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Ice_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Ice";
+        }
+
+        private void Ice_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Lava_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Lava";
+        }
+
+        private void Lava_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Oceanic_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Oceanic";
+        }
+
+        private void Oceanic_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Plasma_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Plasma";
+        }
+
+        private void Plasma_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Storm_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Storm";
+        }
+
+        private void Storm_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
+        }
+
+        private void Temperate_MouseEnter(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Temperate";
+        }
+
+        private void Temperate_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "";
         }
 
     }

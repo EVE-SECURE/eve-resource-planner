@@ -51,6 +51,7 @@
             this.ResourceTier.FormattingEnabled = true;
             this.ResourceTier.Name = "ResourceTier";
             this.ResourceTier.SelectedIndexChanged += new System.EventHandler(this.ResourceTier_SelectedIndexChanged);
+            this.ResourceTier.MouseEnter += new System.EventHandler(this.ResourceTier_MouseEnter);
             // 
             // TierLabel
             // 
@@ -133,6 +134,7 @@
             // 
             // ResourcePanel
             // 
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
             this.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -148,7 +150,6 @@
             this.Controls.Add(this.TierLabel);
             this.Controls.Add(this.ResourceTier);
             this.Controls.Add(this.ResultsPanel);
-            this.MinimumSize = new System.Drawing.Size(860, 113);
             this.Name = "ResourcePanel";
             this.ResumeLayout(false);
             this.PerformLayout();

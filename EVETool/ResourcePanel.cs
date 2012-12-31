@@ -481,5 +481,10 @@ namespace EVETool
             }
             catch (ArgumentOutOfRangeException) { }
         }
+
+        private void ResourceTier_MouseEnter(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

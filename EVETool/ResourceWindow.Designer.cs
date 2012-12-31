@@ -39,7 +39,8 @@
             this.Gas = new System.Windows.Forms.PictureBox();
             this.Barren = new System.Windows.Forms.PictureBox();
             this.NewIndustryInter = new System.Windows.Forms.Button();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.toolStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.Temperate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Storm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Plasma)).BeginInit();
@@ -48,6 +49,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Ice)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barren)).BeginInit();
+            this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // ResourcePanel
@@ -64,6 +66,8 @@
             this.Temperate.Name = "Temperate";
             this.Temperate.TabStop = false;
             this.Temperate.Click += new System.EventHandler(this.Temperate_Click);
+            this.Temperate.MouseEnter += new System.EventHandler(this.Temperate_MouseEnter);
+            this.Temperate.MouseLeave += new System.EventHandler(this.Temperate_MouseLeave);
             // 
             // Storm
             // 
@@ -73,6 +77,8 @@
             this.Storm.Name = "Storm";
             this.Storm.TabStop = false;
             this.Storm.Click += new System.EventHandler(this.Storm_Click);
+            this.Storm.MouseEnter += new System.EventHandler(this.Storm_MouseEnter);
+            this.Storm.MouseLeave += new System.EventHandler(this.Storm_MouseLeave);
             // 
             // Plasma
             // 
@@ -82,6 +88,8 @@
             this.Plasma.Name = "Plasma";
             this.Plasma.TabStop = false;
             this.Plasma.Click += new System.EventHandler(this.Plasma_Click);
+            this.Plasma.MouseEnter += new System.EventHandler(this.Plasma_MouseEnter);
+            this.Plasma.MouseLeave += new System.EventHandler(this.Plasma_MouseLeave);
             // 
             // Oceanic
             // 
@@ -91,6 +99,8 @@
             this.Oceanic.Name = "Oceanic";
             this.Oceanic.TabStop = false;
             this.Oceanic.Click += new System.EventHandler(this.Oceanic_Click);
+            this.Oceanic.MouseEnter += new System.EventHandler(this.Oceanic_MouseEnter);
+            this.Oceanic.MouseLeave += new System.EventHandler(this.Oceanic_MouseLeave);
             // 
             // Lava
             // 
@@ -100,6 +110,8 @@
             this.Lava.Name = "Lava";
             this.Lava.TabStop = false;
             this.Lava.Click += new System.EventHandler(this.Lava_Click);
+            this.Lava.MouseEnter += new System.EventHandler(this.Lava_MouseEnter);
+            this.Lava.MouseLeave += new System.EventHandler(this.Lava_MouseLeave);
             // 
             // Ice
             // 
@@ -109,6 +121,8 @@
             this.Ice.Name = "Ice";
             this.Ice.TabStop = false;
             this.Ice.Click += new System.EventHandler(this.Ice_Click);
+            this.Ice.MouseEnter += new System.EventHandler(this.Ice_MouseEnter);
+            this.Ice.MouseLeave += new System.EventHandler(this.Ice_MouseLeave);
             // 
             // Gas
             // 
@@ -118,6 +132,8 @@
             this.Gas.Name = "Gas";
             this.Gas.TabStop = false;
             this.Gas.Click += new System.EventHandler(this.Gas_Click);
+            this.Gas.MouseEnter += new System.EventHandler(this.Gas_MouseEnter);
+            this.Gas.MouseLeave += new System.EventHandler(this.Gas_MouseLeave);
             // 
             // Barren
             // 
@@ -127,6 +143,8 @@
             this.Barren.Name = "Barren";
             this.Barren.TabStop = false;
             this.Barren.Click += new System.EventHandler(this.Barren_Click);
+            this.Barren.MouseEnter += new System.EventHandler(this.Barren_MouseEnter);
+            this.Barren.MouseLeave += new System.EventHandler(this.Barren_MouseLeave);
             // 
             // NewIndustryInter
             // 
@@ -136,19 +154,26 @@
             this.NewIndustryInter.UseVisualStyleBackColor = true;
             this.NewIndustryInter.Click += new System.EventHandler(this.NewIndustryInter_Click);
             // 
-            // statusStrip1
+            // statusStrip
             // 
-            this.statusStrip1.BackColor = System.Drawing.SystemColors.ControlDark;
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.SizingGrip = false;
+            this.statusStrip.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabel});
+            resources.ApplyResources(this.statusStrip, "statusStrip");
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.SizingGrip = false;
+            // 
+            // toolStripLabel
+            // 
+            this.toolStripLabel.Name = "toolStripLabel";
+            resources.ApplyResources(this.toolStripLabel, "toolStripLabel");
             // 
             // ResourceWindow
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.Temperate);
             this.Controls.Add(this.Storm);
             this.Controls.Add(this.Plasma);
@@ -171,6 +196,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Ice)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barren)).EndInit();
+            this.statusStrip.ResumeLayout(false);
+            this.statusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,7 +214,8 @@
         private System.Windows.Forms.PictureBox Plasma;
         private System.Windows.Forms.PictureBox Storm;
         private System.Windows.Forms.PictureBox Temperate;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip statusStrip;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripLabel;
     }
 }
 
