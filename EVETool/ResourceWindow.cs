@@ -25,15 +25,12 @@ namespace EVETool
         public ResourceWindow()
         {
             InitializeComponent();
-
         }
-
         private void NewIndustryInter_Click(object sender, EventArgs e)
         {
             ResourcePanel.Controls.Clear();
             ResourcePanel.Controls.Add(new ResourcePanel(BarrenToggle, GasToggle, IceToggle, LavaToggle, OceanicToggle, PlasmaToggle, StormToggle, TemperateToggle));
         }
-
         private void Barren_Click(object sender, EventArgs e)
         {
             if (BarrenToggle == true)
@@ -57,7 +54,6 @@ namespace EVETool
                 }
             }
         }
-
         private void Gas_Click(object sender, EventArgs e)
         {
             if (GasToggle == true)
@@ -129,7 +125,6 @@ namespace EVETool
                 }
             }
         }
-
         private void Oceanic_Click(object sender, EventArgs e)
         {
             if (OceanicToggle == true)
@@ -153,7 +148,6 @@ namespace EVETool
                 }
             }
         }
-
         private void Plasma_Click(object sender, EventArgs e)
         {
             if (PlasmaToggle == true)
@@ -177,7 +171,6 @@ namespace EVETool
                 }
             }
         }
-
         private void Storm_Click(object sender, EventArgs e)
         {
             if (StormToggle == true)
@@ -201,7 +194,6 @@ namespace EVETool
                 }
             }
         }
-
         private void Temperate_Click(object sender, EventArgs e)
         {
             if (TemperateToggle == true)
@@ -225,7 +217,6 @@ namespace EVETool
                 }
             }
         }
-
         private void Barren_MouseEnter(object sender, EventArgs e)
         {
             toolStripLabel.Text = "Barren";
