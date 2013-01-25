@@ -50,6 +50,8 @@ namespace EVETool
             try
             {
                 // When the first combobox value is changed made the second combo-box visible.
+                if(DesiredProduct.Visible == true)
+                    DesiredProduct.SelectedIndex = -1;
                 DesiredProduct.Items.Clear();
                 DesiredLabel.Visible = true;
                 DesiredProduct.Visible = true;

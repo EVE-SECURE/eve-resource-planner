@@ -87,6 +87,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InfoWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoWindow.Designer.cs">
+      <DependentUpon>InfoWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="P4_P1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -158,6 +164,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SIDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="InfoWindow.resx">
+      <DependentUpon>InfoWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="P4_P1.resx">
       <DependentUpon>P4_P1.cs</DependentUpon>
     </EmbeddedResource>
@@ -326,6 +335,7 @@
     <None Include="Resources\Temperate.png" />
     <EmbeddedResource Include="Resources\Wetware Mainframe.png" />
     <Content Include="6_64_2.ico" />
+    <None Include="Resources\254186884.jpg" />
     <Content Include="ScienceIndustry.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

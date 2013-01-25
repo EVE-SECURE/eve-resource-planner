@@ -400,4 +400,7 @@
   <data name="Wetware_Mainframe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wetware Mainframe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ChingyChonga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\254186884.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

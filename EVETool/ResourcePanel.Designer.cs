@@ -48,7 +48,6 @@
             resources.ApplyResources(this.ResourceTier, "ResourceTier");
             this.ResourceTier.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.ResourceTier.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.ResourceTier.FormattingEnabled = true;
             this.ResourceTier.Name = "ResourceTier";
             this.ResourceTier.SelectedIndexChanged += new System.EventHandler(this.ResourceTier_SelectedIndexChanged);
             this.ResourceTier.MouseEnter += new System.EventHandler(this.ResourceTier_MouseEnter);

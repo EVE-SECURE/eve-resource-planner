@@ -297,5 +297,11 @@ namespace EVETool
             toolStripLabel.Text = "";
         }
 
+        private void infoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InfoWindow Info = new InfoWindow();
+            Info.Show();
+        }
+
     }
 }
